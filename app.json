@@ -1,0 +1,45 @@
+{
+  "id": "d8b44bba-4555-496e-9d1f-8137d0c0a414",
+  "name": "ENDEMOL-REPORTS",
+  "publisher": "BCSYS",
+  "version": "19.0.0.1",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+    {
+      "id": "86284170-6f1a-4095-b633-0e7a8ba399ad",
+      "name": "ENDEMOL",
+      "publisher": "BCSYS",
+      "version": "19.0.0.1"
+    }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "19.0.0.0",
+  "idRanges": [
+    {
+      "from": 50000,
+      "to": 50100
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  }, 
+  "features": [
+    "TranslationFile"
+  ],
+  "supportedLocales": [
+    "en-US",
+    "fr-FR"
+  ],
+  "contextSensitiveHelpUrl": "https://ENDEMOL.com/help/",
+  "runtime": "8.0",
+  "target": "OnPrem"
+}
