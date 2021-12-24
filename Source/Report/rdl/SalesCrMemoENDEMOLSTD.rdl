@@ -24,7 +24,7 @@
               </TablixColumns>
               <TablixRows>
                 <TablixRow>
-                  <Height>12.72374cm</Height>
+                  <Height>13.84585cm</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -3749,7 +3749,7 @@ Fields!SALES_HEADER_JOB_CODE_VALUE.Value
                                   </TablixMember>
                                 </TablixMembers>
                               </TablixRowHierarchy>
-                              <Top>10.015cm</Top>
+                              <Top>11.158cm</Top>
                               <Left>9.75511cm</Left>
                               <Height>2.68785cm</Height>
                               <Width>9.5238cm</Width>
@@ -4062,15 +4062,14 @@ Fields!SALES_HEADER_JOB_CODE_VALUE.Value
             <PageBreak>
               <BreakLocation>End</BreakLocation>
             </PageBreak>
-            <Top>0cm</Top>
-            <Height>12.72374cm</Height>
+            <Height>13.84585cm</Height>
             <Width>19.48344cm</Width>
             <Style>
               <FontSize>9pt</FontSize>
             </Style>
           </Tablix>
         </ReportItems>
-        <Height>12.72374cm</Height>
+        <Height>13.84585cm</Height>
         <Style />
       </Body>
       <Width>19.68254cm</Width>

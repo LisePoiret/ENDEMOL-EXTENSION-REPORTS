@@ -24,7 +24,7 @@
               </TablixColumns>
               <TablixRows>
                 <TablixRow>
-                  <Height>12.72374cm</Height>
+                  <Height>13.58099cm</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -729,7 +729,7 @@
                                   </FilterValues>
                                 </Filter>
                               </Filters>
-                              <Top>10.17346cm</Top>
+                              <Top>9.87714cm</Top>
                               <Height>2.55028cm</Height>
                               <Width>8.88888cm</Width>
                               <ZIndex>1</ZIndex>
@@ -766,25 +766,25 @@
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
-                                          <Textbox Name="Sales_Invoice_Line_Description_Control65Caption">
-                                            <CanGrow>true</CanGrow>
+                                          <Textbox Name="textbox33">
                                             <KeepTogether>true</KeepTogether>
                                             <Paragraphs>
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value>=First(Fields!Sales_Invoice_Line_Description_Control65Caption.Value)</Value>
+                                                    <Value>=Code.SetData(ReportItems!SalesHdrInfo.Value,4)</Value>
                                                     <Style>
-                                                      <FontSize>9pt</FontSize>
-                                                      <FontWeight>Bold</FontWeight>
-                                                      <TextDecoration>Underline</TextDecoration>
+                                                      <Color>Red</Color>
                                                     </Style>
                                                   </TextRun>
                                                 </TextRuns>
                                                 <Style />
                                               </Paragraph>
                                             </Paragraphs>
-                                            <ZIndex>151</ZIndex>
+                                            <ZIndex>5</ZIndex>
+                                            <Visibility>
+                                              <Hidden>true</Hidden>
+                                            </Visibility>
                                             <Style>
                                               <PaddingLeft>2pt</PaddingLeft>
                                               <PaddingRight>2pt</PaddingRight>
@@ -3559,33 +3559,6 @@ Fields!SALES_HEADER_JOB_CODE_VALUE.Value
                               <ZIndex>4</ZIndex>
                               <Style />
                             </Tablix>
-                            <Textbox Name="textbox33">
-                              <KeepTogether>true</KeepTogether>
-                              <Paragraphs>
-                                <Paragraph>
-                                  <TextRuns>
-                                    <TextRun>
-                                      <Value>=Code.SetData(ReportItems!SalesHdrInfo.Value,4)</Value>
-                                      <Style>
-                                        <Color>Red</Color>
-                                      </Style>
-                                    </TextRun>
-                                  </TextRuns>
-                                  <Style />
-                                </Paragraph>
-                              </Paragraphs>
-                              <Left>5.07937cm</Left>
-                              <Height>0.31746cm</Height>
-                              <Width>0.95238cm</Width>
-                              <ZIndex>5</ZIndex>
-                              <Visibility>
-                                <Hidden>true</Hidden>
-                              </Visibility>
-                              <Style>
-                                <PaddingLeft>2pt</PaddingLeft>
-                                <PaddingRight>2pt</PaddingRight>
-                              </Style>
-                            </Textbox>
                             <Textbox Name="Sales_Invoice_Header_PrePmtOrderNo">
                               <CanGrow>true</CanGrow>
                               <KeepTogether>true</KeepTogether>
@@ -3606,7 +3579,7 @@ Fields!SALES_HEADER_JOB_CODE_VALUE.Value
                               <Left>9.20635cm</Left>
                               <Height>0.31746cm</Height>
                               <Width>2.53968cm</Width>
-                              <ZIndex>6</ZIndex>
+                              <ZIndex>5</ZIndex>
                               <Visibility>
                                 <Hidden>true</Hidden>
                               </Visibility>
@@ -4249,11 +4222,11 @@ Fields!SALES_HEADER_JOB_CODE_VALUE.Value
                                 </TablixMembers>
                               </TablixRowHierarchy>
                               <KeepTogether>true</KeepTogether>
-                              <Top>10.03589cm</Top>
+                              <Top>10.86139cm</Top>
                               <Left>9.75511cm</Left>
                               <Height>2.68785cm</Height>
                               <Width>9.5238cm</Width>
-                              <ZIndex>7</ZIndex>
+                              <ZIndex>6</ZIndex>
                               <Style />
                             </Tablix>
                             <Tablix Name="table3">
@@ -4484,7 +4457,7 @@ Fields!SALES_HEADER_JOB_CODE_VALUE.Value
                               <Top>8.2687cm</Top>
                               <Height>1.5cm</Height>
                               <Width>14.92063cm</Width>
-                              <ZIndex>8</ZIndex>
+                              <ZIndex>7</ZIndex>
                               <Visibility>
                                 <Hidden>=(Fields!ShipmentMethod_Description.Value = Fields!PaymentTerms_Description.Value)</Hidden>
                               </Visibility>
@@ -4493,35 +4466,11 @@ Fields!SALES_HEADER_JOB_CODE_VALUE.Value
                                 <FontSize>8pt</FontSize>
                               </Style>
                             </Tablix>
-                            <Textbox Name="textbox14">
-                              <CanGrow>true</CanGrow>
-                              <KeepTogether>true</KeepTogether>
-                              <Paragraphs>
-                                <Paragraph>
-                                  <TextRuns>
-                                    <TextRun>
-                                      <Value />
-                                      <Style />
-                                    </TextRun>
-                                  </TextRuns>
-                                  <Style />
-                                </Paragraph>
-                              </Paragraphs>
-                              <Top>9.915cm</Top>
-                              <Height>0.1cm</Height>
-                              <Width>8.88889cm</Width>
-                              <ZIndex>9</ZIndex>
-                              <Style>
-                                <PaddingLeft>2pt</PaddingLeft>
-                                <PaddingRight>2pt</PaddingRight>
-                                <PaddingTop>2pt</PaddingTop>
-                                <PaddingBottom>2pt</PaddingBottom>
-                              </Style>
-                            </Textbox>
                           </ReportItems>
                           <KeepTogether>true</KeepTogether>
                           <Style />
                         </Rectangle>
+                        <rd:Selected>true</rd:Selected>
                       </CellContents>
                     </TablixCell>
                   </TablixCells>
@@ -4562,15 +4511,14 @@ Fields!SALES_HEADER_JOB_CODE_VALUE.Value
             <PageBreak>
               <BreakLocation>End</BreakLocation>
             </PageBreak>
-            <Top>0cm</Top>
-            <Height>12.72374cm</Height>
+            <Height>13.58099cm</Height>
             <Width>19.68254cm</Width>
             <Style>
               <FontSize>9pt</FontSize>
             </Style>
           </Tablix>
         </ReportItems>
-        <Height>12.72374cm</Height>
+        <Height>13.58099cm</Height>
         <Style />
       </Body>
       <Width>19.68254cm</Width>
