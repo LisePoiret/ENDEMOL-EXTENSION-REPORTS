@@ -896,7 +896,7 @@ report 50008 "Sales - Invoice ENDEMOL STD"
 
             trigger OnAfterGetRecord()
             begin
-                CurrReport.LANGUAGE := Language.GetLanguageID("Language Code");
+                CurrReport.LANGUAGE := Language.GetLanguageIdOrDefault("Language Code");
 
 
                 /*
@@ -972,7 +972,7 @@ report 50008 "Sales - Invoice ENDEMOL STD"
                     PmtMethod.INIT
                 ELSE BEGIN
                     PmtMethod.GET("Payment Method Code");
-                    //  pmtmethod.TranslateDescription(pmtmethod,"Language Code");
+                    pmtmethod.TranslateDescription("Language Code");
                 END;
 
 
@@ -1392,17 +1392,15 @@ report 50008 "Sales - Invoice ENDEMOL STD"
             EXIT;
         END;
 
-        WITH SalesShipmentBuffer DO BEGIN
-            "Document No." := SalesInvoiceLine."Document No.";
-            "Line No." := SalesInvoiceLine."Line No.";
-            "Entry No." := NextEntryNo;
-            Type := SalesInvoiceLine.Type;
-            "No." := SalesInvoiceLine."No.";
-            Quantity := QtyOnShipment;
-            "Posting Date" := PostingDate;
-            INSERT;
-            NextEntryNo := NextEntryNo + 1
-        END;
+        SalesShipmentBuffer."Document No." := SalesInvoiceLine."Document No.";
+        SalesShipmentBuffer."Line No." := SalesInvoiceLine."Line No.";
+        SalesShipmentBuffer."Entry No." := NextEntryNo;
+        SalesShipmentBuffer.Type := SalesInvoiceLine.Type;
+        SalesShipmentBuffer."No." := SalesInvoiceLine."No.";
+        SalesShipmentBuffer.Quantity := QtyOnShipment;
+        SalesShipmentBuffer."Posting Date" := PostingDate;
+        SalesShipmentBuffer.INSERT;
+        NextEntryNo := NextEntryNo + 1
     end;
 
     local procedure DocumentCaption(): Text[250]

@@ -841,7 +841,7 @@ report 50007 "Sales - Cr.Memo ENDEMOL STD"
 
             trigger OnAfterGetRecord()
             begin
-                CurrReport.LANGUAGE := Language.GetLanguageID("Language Code");
+                CurrReport.LANGUAGE := Language.GetLanguageIdOrDefault("Language Code");
 
                 /*
                 IF RespCenter.GET("Responsibility Center") THEN BEGIN
@@ -1293,18 +1293,16 @@ report 50007 "Sales - Cr.Memo ENDEMOL STD"
             EXIT;
         END;
 
-        WITH SalesShipmentBuffer DO BEGIN
-            INIT;
-            "Document No." := SalesCrMemoLine."Document No.";
-            "Line No." := SalesCrMemoLine."Line No.";
-            "Entry No." := NextEntryNo;
-            Type := SalesCrMemoLine.Type;
-            "No." := SalesCrMemoLine."No.";
-            Quantity := -QtyOnShipment;
-            "Posting Date" := PostingDate;
-            INSERT;
-            NextEntryNo := NextEntryNo + 1
-        END;
+        SalesShipmentBuffer.INIT;
+        SalesShipmentBuffer."Document No." := SalesCrMemoLine."Document No.";
+        SalesShipmentBuffer."Line No." := SalesCrMemoLine."Line No.";
+        SalesShipmentBuffer."Entry No." := NextEntryNo;
+        SalesShipmentBuffer.Type := SalesCrMemoLine.Type;
+        SalesShipmentBuffer."No." := SalesCrMemoLine."No.";
+        SalesShipmentBuffer.Quantity := -QtyOnShipment;
+        SalesShipmentBuffer."Posting Date" := PostingDate;
+        SalesShipmentBuffer.INSERT;
+        NextEntryNo := NextEntryNo + 1
     end;
 
     local procedure DocumentCaption(): Text[250]
