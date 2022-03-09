@@ -262,6 +262,9 @@ report 50008 "Sales - Invoice ENDEMOL STD"
                     column(SALES_HEADER_JOB_CODE_LABEL; SALES_HEADER_JOB_CODE_LABELLbl)
                     {
                     }
+                    column(SALES_HEADER_Order_No; SALES_HEADER_Order_NoLbl)
+                    {
+                    }
                     column(MENTION_TVA_SUR_ENCAISSEMENT; MENTION_TVA_SUR_ENCAISSEMENTLbl)
                     {
                     }
@@ -1183,6 +1186,7 @@ report 50008 "Sales - Invoice ENDEMOL STD"
         CompanyInfo__Legal_Form_CaptionLbl: Label 'Label1180050005';
         CompanyInfo__Stock_Capital_CaptionLbl: Label 'Social Capital ', Comment = 'FRA="Capital social "';
         SALES_HEADER_JOB_CODE_LABELLbl: Label 'Job code', Comment = 'FRA="Code projet"';
+        SALES_HEADER_Order_NoLbl: Label 'Order No.', Comment = 'FRA="N° commande"';
         MENTION_TVA_SUR_ENCAISSEMENTLbl: Label ' ';
         BankAccRIBKeyCaptionLbl: Label 'Key', Comment = 'FRA="Clé"';
         BankAccRIBIBANCaptionLbl: Label 'IBAN', Comment = 'FRA="IBAN"';

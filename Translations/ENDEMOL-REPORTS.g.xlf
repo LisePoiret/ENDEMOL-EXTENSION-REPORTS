@@ -3,11 +3,6 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="ENDEMOL-REPORTS">
     <body>
       <group id="body">
-        <trans-unit id="Page 4002566052 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Field List</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Field List - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Report 1694851073 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sales - Credit Memo</source>
           <note from="Developer" annotates="general" priority="2">FRA="Ventes : Avoir"</note>
@@ -572,6 +567,11 @@
           <source>Job code</source>
           <note from="Developer" annotates="general" priority="2">FRA="Code projet"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Sales - Invoice ENDEMOL STD - NamedType SALES_HEADER_JOB_CODE_LABELLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3437173733 - NamedType 930835447" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Order No.</source>
+          <note from="Developer" annotates="general" priority="2">FRA="N° commande"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales - Invoice ENDEMOL STD - NamedType SALES_HEADER_Order_NoLbl</note>
         </trans-unit>
         <trans-unit id="Report 3437173733 - NamedType 174841471" size-unit="char" translate="yes" xml:space="preserve">
           <source>Due Date :</source>

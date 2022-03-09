@@ -3386,7 +3386,7 @@ Fields!SALES_HEADER_Currency_VALUE.Value + Chr(177) +
 Fields!SALES_HEADER_JOB_CODE_LABEL.Value + Chr(177) + 
 Fields!SALES_HEADER_JOB_CODE_VALUE.Value
  + Chr(177) + First(Fields!Mention001.Value)
- + Chr(177) + First(Fields!Mention002.Value),4)</Hidden>
+ + Chr(177) + First(Fields!Mention002.Value) + Chr(177) + First(Fields!SALES_HEADER_Order_No.Value),4)</Hidden>
                                             </Visibility>
                                             <Style>
                                               <Border>
@@ -4470,7 +4470,6 @@ Fields!SALES_HEADER_JOB_CODE_VALUE.Value
                           <KeepTogether>true</KeepTogether>
                           <Style />
                         </Rectangle>
-                        <rd:Selected>true</rd:Selected>
                       </CellContents>
                     </TablixCell>
                   </TablixCells>
@@ -4511,6 +4510,7 @@ Fields!SALES_HEADER_JOB_CODE_VALUE.Value
             <PageBreak>
               <BreakLocation>End</BreakLocation>
             </PageBreak>
+            <Top>0cm</Top>
             <Height>13.58099cm</Height>
             <Width>19.68254cm</Width>
             <Style>
@@ -4759,10 +4759,66 @@ Fields!SALES_HEADER_JOB_CODE_VALUE.Value
                     <PaddingBottom>1pt</PaddingBottom>
                   </Style>
                 </Textbox>
+                <Textbox Name="textbox63">
+                  <CanGrow>true</CanGrow>
+                  <KeepTogether>true</KeepTogether>
+                  <Paragraphs>
+                    <Paragraph>
+                      <TextRuns>
+                        <TextRun>
+                          <Value>=Code.GetData(28,4)</Value>
+                          <Style>
+                            <FontSize>8pt</FontSize>
+                          </Style>
+                        </TextRun>
+                      </TextRuns>
+                      <Style />
+                    </Paragraph>
+                  </Paragraphs>
+                  <Top>1.49356cm</Top>
+                  <Left>0cm</Left>
+                  <Height>0.423cm</Height>
+                  <Width>3.15cm</Width>
+                  <ZIndex>6</ZIndex>
+                  <Style>
+                    <PaddingLeft>2pt</PaddingLeft>
+                    <PaddingRight>1pt</PaddingRight>
+                    <PaddingTop>1pt</PaddingTop>
+                    <PaddingBottom>1pt</PaddingBottom>
+                  </Style>
+                </Textbox>
+                <Textbox Name="textbox64">
+                  <CanGrow>true</CanGrow>
+                  <KeepTogether>true</KeepTogether>
+                  <Paragraphs>
+                    <Paragraph>
+                      <TextRuns>
+                        <TextRun>
+                          <Value>=Code.GetData(10,4)</Value>
+                          <Style>
+                            <FontSize>8pt</FontSize>
+                          </Style>
+                        </TextRun>
+                      </TextRuns>
+                      <Style />
+                    </Paragraph>
+                  </Paragraphs>
+                  <Top>1.49356cm</Top>
+                  <Left>4.44444cm</Left>
+                  <Height>0.423cm</Height>
+                  <Width>3.49207cm</Width>
+                  <ZIndex>7</ZIndex>
+                  <Style>
+                    <PaddingLeft>2pt</PaddingLeft>
+                    <PaddingRight>1pt</PaddingRight>
+                    <PaddingTop>1pt</PaddingTop>
+                    <PaddingBottom>1pt</PaddingBottom>
+                  </Style>
+                </Textbox>
               </ReportItems>
               <DataElementOutput>ContentsOnly</DataElementOutput>
-              <Top>8.88889cm</Top>
-              <Height>1.423cm</Height>
+              <Top>7.93639cm</Top>
+              <Height>2.11092cm</Height>
               <Width>7.93651cm</Width>
               <ZIndex>1</ZIndex>
               <Style>
@@ -5177,7 +5233,7 @@ Fields!SALES_HEADER_JOB_CODE_VALUE.Value
                 </Textbox>
               </ReportItems>
               <DataElementOutput>ContentsOnly</DataElementOutput>
-              <Top>8.25397cm</Top>
+              <Top>7.30147cm</Top>
               <Height>0.423cm</Height>
               <Width>7.93651cm</Width>
               <ZIndex>16</ZIndex>
@@ -5333,6 +5389,7 @@ Fields!SALES_HEADER_JOB_CODE_VALUE.Value
                   <Style />
                 </Paragraph>
               </Paragraphs>
+              <Top>0cm</Top>
               <Height>0.42299cm</Height>
               <Width>19.04762cm</Width>
               <ZIndex>3</ZIndex>
@@ -5807,6 +5864,9 @@ End Function
         </Field>
         <Field Name="SALES_HEADER_JOB_CODE_LABEL">
           <DataField>SALES_HEADER_JOB_CODE_LABEL</DataField>
+        </Field>
+        <Field Name="SALES_HEADER_Order_No">
+          <DataField>SALES_HEADER_Order_No</DataField>
         </Field>
         <Field Name="MENTION_TVA_SUR_ENCAISSEMENT">
           <DataField>MENTION_TVA_SUR_ENCAISSEMENT</DataField>
