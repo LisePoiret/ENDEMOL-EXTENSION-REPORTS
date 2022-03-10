@@ -3,6 +3,46 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="ENDEMOL-REPORTS">
     <body>
       <group id="body">
+        <trans-unit id="Report 331017176 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reminder</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Relance"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report BC6 - Reminder - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 331017176 - ReportLabel 2619821990" size-unit="char" translate="yes" xml:space="preserve">
+          <source>E-Mail</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report BC6 - Reminder - ReportLabel EMailCaption</note>
+        </trans-unit>
+        <trans-unit id="Report 331017176 - ReportLabel 4267901198" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Home Page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report BC6 - Reminder - ReportLabel HomePageCaption</note>
+        </trans-unit>
+        <trans-unit id="Report 331017176 - ReportLabel 501693335" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report BC6 - Reminder - ReportLabel PageCaption</note>
+        </trans-unit>
+        <trans-unit id="Report 331017176 - ReportLabel 1440380952" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report BC6 - Reminder - ReportLabel TotalCaption</note>
+        </trans-unit>
+        <trans-unit id="Report 331017176 - ReportLabel 1015751259" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report BC6 - Reminder - ReportLabel VATAmountCaption</note>
+        </trans-unit>
+        <trans-unit id="Report 331017176 - ReportLabel 3906556652" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Base</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report BC6 - Reminder - ReportLabel VATBaseCaption</note>
+        </trans-unit>
+        <trans-unit id="Report 331017176 - ReportLabel 3910941210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT %</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report BC6 - Reminder - ReportLabel VATPercentCaption</note>
+        </trans-unit>
         <trans-unit id="Report 1694851073 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sales - Credit Memo</source>
           <note from="Developer" annotates="general" priority="2">FRA="Ventes : Avoir"</note>
