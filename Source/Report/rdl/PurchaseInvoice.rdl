@@ -7532,6 +7532,18 @@ End Function
         <Field Name="PayToContactEmail">
           <DataField>PayToContactEmail</DataField>
         </Field>
+        <Field Name="Purch_order_No">
+          <DataField>Purch_order_No</DataField>
+        </Field>
+        <Field Name="LabelOrder">
+          <DataField>LabelOrder</DataField>
+        </Field>
+        <Field Name="ShortcutDimension1Code">
+          <DataField>ShortcutDimension1Code</DataField>
+        </Field>
+        <Field Name="Shortcut_Dimension_Caption">
+          <DataField>Shortcut_Dimension_Caption</DataField>
+        </Field>
         <Field Name="PaymentTermsDesc">
           <DataField>PaymentTermsDesc</DataField>
         </Field>
@@ -7990,18 +8002,6 @@ End Function
         </Field>
         <Field Name="ShipToAddressCaption">
           <DataField>ShipToAddressCaption</DataField>
-        </Field>
-        <Field Name="ShortcutDimension1Code">
-          <DataField>ShortcutDimension1Code</DataField>
-        </Field>
-        <Field Name="Shortcut_Dimension_Caption">
-          <DataField>Shortcut_Dimension_Caption</DataField>
-        </Field>
-        <Field Name="Purch_order_No">
-          <DataField>Purch_order_No</DataField>
-        </Field>
-        <Field Name="LabelOrder">
-          <DataField>LabelOrder</DataField>
         </Field>
       </Fields>
       <Query>
