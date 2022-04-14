@@ -1133,12 +1133,6 @@
           <note from="Developer" annotates="general" priority="2">FRA="Afficher info. internes"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Sales - Invoice ENDEMOL STD - Control ShowInternalInfo - Property Caption</note>
         </trans-unit>
-<<<<<<< HEAD
-        <trans-unit id="ReportExtension 3106418610 - NamedType 1070930650" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 3106418610">
-          <source>Order No.</source>
-          <note from="Developer" annotates="general" priority="2">FRA="N° commande"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Purchase - Invoice Ext - NamedType Purchase_HEADER_Order_NoLbl</note>
-=======
         <trans-unit id="Report 1686705815 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sales - Confirmation</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1548,7 +1542,11 @@
           <source>Show Internal Information</source>
           <note from="Developer" annotates="general" priority="2">FRA="Afficher info. internes"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - Control ShowInternalInfo - Property Caption</note>
->>>>>>> DEV000001
+        </trans-unit>
+        <trans-unit id="ReportExtension 3106418610 - NamedType 1070930650" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 3106418610">
+          <source>Order No.</source>
+          <note from="Developer" annotates="general" priority="2">FRA="N° commande"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Purchase - Invoice Ext - NamedType Purchase_HEADER_Order_NoLbl</note>
         </trans-unit>
       </group>
     </body>
