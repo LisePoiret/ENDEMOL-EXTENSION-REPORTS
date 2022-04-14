@@ -863,225 +863,380 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Report 1686705815 - NamedType 1851005282" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Bill-to Contact E-Mail</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType BillToContactEmailLbl</note>
+        <trans-unit id="Report 1686705815 - NamedType 3285233284" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Prix HT"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType AmountCaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 1686705815 - NamedType 2423794985" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Bill-to Contact Mobile Phone No.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType BillToContactMobilePhoneNoLbl</note>
+        <trans-unit id="Report 1686705815 - NamedType 3262880599" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Agency Code</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Code guichet"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType BankAccRIBAgencyCaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 1686705815 - NamedType 24137681" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Bill-to Contact Phone No.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType BillToContactPhoneNoLbl</note>
+        <trans-unit id="Report 1686705815 - NamedType 3936785112" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank Account No.</source>
+          <note from="Developer" annotates="general" priority="2">FRA="N° compte bancaire"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType BankAccRIBBankAccNoCaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 1686705815 - NamedType 1908025102" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Thank you for your business. Your order confirmation is attached to this message.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType BodyLbl</note>
+        <trans-unit id="Report 1686705815 - NamedType 3332175233" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Branch Code</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Code banque"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType BankAccRIBBranchNoCaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 1686705815 - NamedType 2771379227" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Sincerely</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType ClosingLbl</note>
+        <trans-unit id="Report 1686705815 - NamedType 1255740810" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IBAN</source>
+          <note from="Developer" annotates="general" priority="2">FRA="IBAN"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType BankAccRIBIBANCaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 1686705815 - NamedType 3280613231" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1686705815 - NamedType 2829018751" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Key</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Clé"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType BankAccRIBKeyCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1686705815 - NamedType 1017509767" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Nom"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType BankAccRIBNameCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1686705815 - NamedType 677830903" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SWIFT Code</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Code SWIFT"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType BankAccRIBSWIFTCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1686705815 - NamedType 3100138224" size-unit="char" translate="yes" xml:space="preserve">
+          <source>APE Code </source>
+          <note from="Developer" annotates="general" priority="2">FRA="Code APE "</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType CompanyInfo__APE_Code_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1686705815 - NamedType 2865430237" size-unit="char" translate="yes" xml:space="preserve">
           <source>Account No.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType CompanyInfoBankAccNoLbl</note>
+          <note from="Developer" annotates="general" priority="2">FRA="N° compte"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType CompanyInfo__Bank_Account_No__CaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 1686705815 - NamedType 3338143750" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1686705815 - NamedType 1365031592" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bank</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType CompanyInfoBankNameLbl</note>
+          <note from="Developer" annotates="general" priority="2">FRA="Banque"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType CompanyInfo__Bank_Name_CaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 1686705815 - NamedType 1810908995" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1686705815 - NamedType 2578157976" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fax No.</source>
+          <note from="Developer" annotates="general" priority="2">FRA="N° télécopie"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType CompanyInfo__Fax_No__CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1686705815 - NamedType 427601924" size-unit="char" translate="yes" xml:space="preserve">
           <source>Giro No.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType CompanyInfoGiroNoLbl</note>
+          <note from="Developer" annotates="general" priority="2">FRA="N° CCP"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType CompanyInfo__Giro_No__CaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 1686705815 - NamedType 1970452706" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1686705815 - NamedType 251697404" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Label1180050005</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType CompanyInfo__Legal_Form_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1686705815 - NamedType 536679201" size-unit="char" translate="yes" xml:space="preserve">
           <source>Phone No.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType CompanyInfoPhoneNoLbl</note>
+          <note from="Developer" annotates="general" priority="2">FRA="N° téléphone"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType CompanyInfo__Phone_No__CaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 1686705815 - NamedType 3701423681" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Copy</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType CopyLbl</note>
+        <trans-unit id="Report 1686705815 - NamedType 1985143894" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SIRET N° </source>
+          <note from="Developer" annotates="general" priority="2">FRA="N° SIRET "</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType CompanyInfo__Registration_No__CaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 1686705815 - NamedType 1198791402" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Email</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType EMailLbl</note>
+        <trans-unit id="Report 1686705815 - NamedType 2605168697" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Social Capital </source>
+          <note from="Developer" annotates="general" priority="2">FRA="Capital social "</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType CompanyInfo__Stock_Capital_CaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 1686705815 - NamedType 3642584667" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Exchange rate: %1/%2</source>
-          <note from="Developer" annotates="general" priority="2">%1 and %2 are both amounts.</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType ExchangeRateTxt</note>
+        <trans-unit id="Report 1686705815 - NamedType 1029183126" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Commercial Register </source>
+          <note from="Developer" annotates="general" priority="2">FRA="Registre commerciale "</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType CompanyInfo__Trade_Register_CaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 1686705815 - NamedType 514421613" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Hello</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType GreetingLbl</note>
+        <trans-unit id="Report 1686705815 - NamedType 91401898" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Reg. No.</source>
+          <note from="Developer" annotates="general" priority="2">FRA="N° id. intracomm."</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType CompanyInfo__VAT_Registration_No__CaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 1686705815 - NamedType 1243851074" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Home Page</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType HomePageLbl</note>
+        <trans-unit id="Report 1686705815 - NamedType 4036938315" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Continued</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Report"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType ContinuedCaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 1686705815 - NamedType 3479778493" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Invoice Discount Base Amount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType InvDiscBaseAmtLbl</note>
+        <trans-unit id="Report 1686705815 - NamedType 4233317840" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Continued</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Report"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType ContinuedCaption_Control85Lbl</note>
         </trans-unit>
-        <trans-unit id="Report 1686705815 - NamedType 3079811618" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Invoice Discount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType InvDiscountAmtLbl</note>
+        <trans-unit id="Report 1686705815 - NamedType 2077897386" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Reg. No.</source>
+          <note from="Developer" annotates="general" priority="2">FRA="N° id. intracomm."</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType Cust__VAT_Registration_No__CaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 1686705815 - NamedType 259914550" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Order No.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType InvNoLbl</note>
+        <trans-unit id="Report 1686705815 - NamedType 2201161008" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice No.</source>
+          <note from="Developer" annotates="general" priority="2">FRA="N° facture"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType Invoice_No_Caption_OLDLbl</note>
         </trans-unit>
-        <trans-unit id="Report 1686705815 - NamedType 1448166496" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1686705815 - NamedType 3618136416" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inv. Discount Amount</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Montant remise facture"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType Inv__Discount_Amount_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1686705815 - NamedType 1706666140" size-unit="char" translate="yes" xml:space="preserve">
           <source>Payment Discount on VAT</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Escompte sur TVA"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType Line_Amount_____Inv__Discount_Amount_____Amount_Including_VAT__CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1686705815 - NamedType 3000995073" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType LineAmtAfterInvDiscLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType MENTION_TVA_SUR_ENCAISSEMENTLbl</note>
         </trans-unit>
-        <trans-unit id="Report 1686705815 - NamedType 2284888724" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Local Currency</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType LocalCurrencyLbl</note>
+        <trans-unit id="Report 1686705815 - NamedType 4258267806" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Terms :</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Conditions de paiement :"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType PaymentTerms_DescriptionCaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 1686705815 - NamedType 2491107794" size-unit="char" translate="yes" xml:space="preserve">
-          <source>You must specify one or more filters to avoid accidently printing all documents.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType NoFilterSetErr</note>
+        <trans-unit id="Report 1686705815 - NamedType 4254529445" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment method :</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Mode de paiement :"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType PmtMethod_DescriptionCaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 1686705815 - NamedType 1877187315" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Page</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType PageLbl</note>
+        <trans-unit id="Report 1686705815 - NamedType 3543880195" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Shipment Date</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Date expédition validée"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType PostedShipmentDateCaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 1686705815 - NamedType 36769898" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Payment Method</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType PaymentMethodDescLbl</note>
+        <trans-unit id="Report 1686705815 - NamedType 1411880461" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Currency code</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Code devise"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType SALES_HEADER_Currency_LABELLbl</note>
         </trans-unit>
-        <trans-unit id="Report 1686705815 - NamedType 2906320672" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Payment Terms</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType PaymentTermsDescLbl</note>
+        <trans-unit id="Report 1686705815 - NamedType 1331979195" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job code</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Code projet"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType SALES_HEADER_JOB_CODE_LABELLbl</note>
         </trans-unit>
-        <trans-unit id="Report 1686705815 - NamedType 3007589352" size-unit="char" translate="yes" xml:space="preserve">
-          <source>If we receive the payment before %1, you are eligible for a %2% payment discount.</source>
-          <note from="Developer" annotates="general" priority="2">%1 Discount Due Date %2 = value of Payment Discount % </note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType PmtDiscTxt</note>
+        <trans-unit id="Report 1686705815 - NamedType 930835447" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Order No.</source>
+          <note from="Developer" annotates="general" priority="2">FRA="N° commande"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType SALES_HEADER_Order_NoLbl</note>
         </trans-unit>
-        <trans-unit id="Report 1686705815 - NamedType 3763377721" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Shipment Date</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType PostedShipmentDateLbl</note>
+        <trans-unit id="Report 1686705815 - NamedType 174841471" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Due Date :</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Date d'échéance :"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType Sales_Invoice_Header___Due_Date_CaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 1686705815 - NamedType 2449874975" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Order Confirmation</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType SalesConfirmationLbl</note>
+        <trans-unit id="Report 1686705815 - NamedType 559920715" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Date comptabilisation"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType Sales_Invoice_Header___Posting_Date_CaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 1686705815 - NamedType 2105550444" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Discount %</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType SalesInvLineDiscLbl</note>
+        <trans-unit id="Report 1686705815 - NamedType 196712507" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Description"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType Sales_Invoice_Line_Description_Control65CaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 1686705815 - NamedType 1075159697" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Sales person</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType SalespersonLbl</note>
+        <trans-unit id="Report 1686705815 - NamedType 3959200292" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Disc. %</source>
+          <note from="Developer" annotates="general" priority="2">FRA="% remise"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType Sales_Invoice_Line__Line_Discount___CaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 1686705815 - NamedType 2518404021" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Sell-to Contact E-Mail</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType SellToContactEmailLbl</note>
+        <trans-unit id="Report 1686705815 - NamedType 3740093710" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipment Method :</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Conditions de livraison :"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType ShipmentMethod_DescriptionCaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 1686705815 - NamedType 689955230" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Sell-to Contact Mobile Phone No.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType SellToContactMobilePhoneNoLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 1686705815 - NamedType 1096796838" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Sell-to Contact Phone No.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType SellToContactPhoneNoLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 1686705815 - NamedType 2531235046" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Shipment</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType ShipmentLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 1686705815 - NamedType 2039684796" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Ship-to Address</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType ShiptoAddrLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 1686705815 - NamedType 2175793069" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Shipment Method</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType ShptMethodDescLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 1686705815 - NamedType 3014721408" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1686705815 - NamedType 3126303398" size-unit="char" translate="yes" xml:space="preserve">
           <source>Subtotal</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType SubtotalLbl</note>
+          <note from="Developer" annotates="general" priority="2">FRA="Sous-total"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType SubtotalCaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 1686705815 - NamedType 2410138484" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Total</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType TotalLbl</note>
+        <trans-unit id="Report 1686705815 - NamedType 2476940767" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salesperson</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Vendeur"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType Text000</note>
         </trans-unit>
-        <trans-unit id="Report 1686705815 - NamedType 803899421" size-unit="char" translate="yes" xml:space="preserve">
-          <source>VAT Amount (LCY)</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType VATAmountLCYLbl</note>
+        <trans-unit id="Report 1686705815 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total %1</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Total %1"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType Text001</note>
         </trans-unit>
-        <trans-unit id="Report 1686705815 - NamedType 3751533915" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1686705815 - NamedType 3752334001" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total %1 Incl. VAT</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Total %1 TTC"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType Text002</note>
+        </trans-unit>
+        <trans-unit id="Report 1686705815 - NamedType 95063322" size-unit="char" translate="yes" xml:space="preserve">
+          <source>COPY</source>
+          <note from="Developer" annotates="general" priority="2">FRA="COPIE"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType Text003</note>
+        </trans-unit>
+        <trans-unit id="Report 1686705815 - NamedType 732759939" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales - Invoice %1</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Ventes : Facture %1"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType Text004</note>
+        </trans-unit>
+        <trans-unit id="Report 1686705815 - NamedType 1370456556" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page %1</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Page %1"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType Text005</note>
+        </trans-unit>
+        <trans-unit id="Report 1686705815 - NamedType 2008153173" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total %1 Excl. VAT</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Total %1 HT"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType Text006</note>
+        </trans-unit>
+        <trans-unit id="Report 1686705815 - NamedType 2645849790" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Amount Specification in </source>
+          <note from="Developer" annotates="general" priority="2">FRA="Détail TVA dans "</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType Text007</note>
+        </trans-unit>
+        <trans-unit id="Report 1686705815 - NamedType 3283546407" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Local Currency</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Devise société"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType Text008</note>
+        </trans-unit>
+        <trans-unit id="Report 1686705815 - NamedType 3921243024" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Exchange rate: %1/%2</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Taux de change : %1/%2"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType Text009</note>
+        </trans-unit>
+        <trans-unit id="Report 1686705815 - NamedType 1664139952" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales - Prepayment Invoice %1</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Ventes - Facture acompte %1"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType Text010</note>
+        </trans-unit>
+        <trans-unit id="Report 1686705815 - NamedType 2247286032" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ShipmentNo</source>
+          <note from="Developer" annotates="general" priority="2">FRA="NoExpédition"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType Text10800</note>
+        </trans-unit>
+        <trans-unit id="Report 1686705815 - NamedType 1342776954" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fund Call No.</source>
+          <note from="Developer" annotates="general" priority="2">FRA="N° appel de fonds"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType TextFundCall</note>
+        </trans-unit>
+        <trans-unit id="Report 1686705815 - NamedType 4227125224" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice No.</source>
+          <note from="Developer" annotates="general" priority="2">FRA="N° facture"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType TextInvoice</note>
+        </trans-unit>
+        <trans-unit id="Report 1686705815 - NamedType 1701361922" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This service is subject to reverse-charge in the country of the recipient</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Ce service est soumis à autoliquidation dans le pays du destinataire"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType TextMention001</note>
+        </trans-unit>
+        <trans-unit id="Report 1686705815 - NamedType 4083239367" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No discount for anticipated payment. In accordance with article n°L441-6 of the Code of commerce (Trade Rules), in case of delay of the payment at the due date, a penalty will be applied basis on a 10% rate</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Pas d'escompte en cas de règlement anticipé. Conformément à l'article L441-6 du Code du commerce, il sera appliqué, en cas de retard de paiement à l'échéance, une pénalité calculée sur la base d'un taux égal à 10%"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType TextMention002</note>
+        </trans-unit>
+        <trans-unit id="Report 1686705815 - NamedType 425968688" size-unit="char" translate="yes" xml:space="preserve">
+          <source> and a lump sum, for debt recovery, of 40 euros. These penalties will be payable as soon the debit note will be issue.</source>
+          <note from="Developer" annotates="general" priority="2">FRA=" ainsi qu'une indemnité forfaitaire pour frais de recouvrement d'un montant de 40 euros. Ces pénalités sont payables à réception de l'avis vous informant que nous les avons portées à votre débit."</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType TextMention003</note>
+        </trans-unit>
+        <trans-unit id="Report 1686705815 - NamedType 2372114432" size-unit="char" translate="yes" xml:space="preserve">
+          <source>, </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType TextOn</note>
+        </trans-unit>
+        <trans-unit id="Report 1686705815 - NamedType 2446068092" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit Price</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Prix unitaire"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType Unit_PriceCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1686705815 - NamedType 2100523348" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT Amount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType VATAmtLbl</note>
+          <note from="Developer" annotates="general" priority="2">FRA="Montant TVA"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType VALVATAmountLCY_Control170CaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 1686705815 - NamedType 3978645464" size-unit="char" translate="yes" xml:space="preserve">
-          <source>VAT Amount Specification</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType VATAmtSpecificationLbl</note>
+        <trans-unit id="Report 1686705815 - NamedType 2096959425" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Continued</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Report"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType VALVATBaseLCYCaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 1686705815 - NamedType 3259128960" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1686705815 - NamedType 3833871083" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT Base</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType VATBaseLbl</note>
+          <note from="Developer" annotates="general" priority="2">FRA="TVA Base"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType VALVATBaseLCY_Control169CaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 1686705815 - NamedType 282000566" size-unit="char" translate="yes" xml:space="preserve">
-          <source>VAT Base (LCY)</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType VATBaseLCYLbl</note>
+        <trans-unit id="Report 1686705815 - NamedType 1337021568" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Continued</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Report"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType VALVATBaseLCY_Control175CaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 1686705815 - NamedType 2760006609" size-unit="char" translate="yes" xml:space="preserve">
-          <source>VAT Clause</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType VATClausesLbl</note>
+        <trans-unit id="Report 1686705815 - NamedType 2225094482" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Total"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType VALVATBaseLCY_Control180CaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 1686705815 - NamedType 1071970054" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1686705815 - NamedType 248054567" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice Discount Amount</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Montant remise facture"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType VATAmountLine__Invoice_Discount_Amount__Control142CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1686705815 - NamedType 1731876576" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inv. Disc. Base Amount</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Montant base remise facture"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType VATAmountLine__Inv__Disc__Base_Amount__Control141CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1686705815 - NamedType 3680130846" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line Amount</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Montant ligne"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType VATAmountLine__Line_Amount__Control140CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1686705815 - NamedType 3899293694" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Amount</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Montant TVA"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType VATAmountLine__VAT_Amount__Control109CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1686705815 - NamedType 1206547837" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Continued</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Report"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType VATAmountLine__VAT_Base_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1686705815 - NamedType 1857744542" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Base</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Base TVA"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType VATAmountLine__VAT_Base__Control108CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1686705815 - NamedType 3624995555" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Continued</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Report"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType VATAmountLine__VAT_Base__Control112CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1686705815 - NamedType 3423575743" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Total"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType VATAmountLine__VAT_Base__Control116CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1686705815 - NamedType 4036425911" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Id.</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Id. TVA"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType VATAmountLine__VAT_Identifier_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1686705815 - NamedType 4137533657" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT Identifier</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType VATIdentifierLbl</note>
+          <note from="Developer" annotates="general" priority="2">FRA="Identifiant TVA"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType VATAmountLine__VAT_Identifier__Control165CaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 1686705815 - NamedType 1532992371" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1686705815 - NamedType 1646491659" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT %</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType VATPercentageLbl</note>
+          <note from="Developer" annotates="general" priority="2">FRA="% TVA"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType VATAmountLine__VAT___CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1686705815 - NamedType 1938117350" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT %</source>
+          <note from="Developer" annotates="general" priority="2">FRA="% TVA"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType VATAmountLine__VAT____Control164CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1686705815 - NamedType 3936256794" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Amount Specification</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Détail TVA"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - NamedType VAT_Amount_SpecificationCaptionLbl</note>
         </trans-unit>
         <trans-unit id="Report 1686705815 - ReportDataItem 907109761 - Property 1806354803" size-unit="char" translate="yes" xml:space="preserve">
           <source>Posted Sales Invoice</source>
@@ -1090,38 +1245,28 @@
         </trans-unit>
         <trans-unit id="Report 1686705815 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Options</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">FRA="Options"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - Control Options - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Report 1686705815 - Control 3255118903 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies if the document is archived after you print it.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - Control ArchiveDocument - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Report 1686705815 - Control 3255118903 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Archive Document</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - Control ArchiveDocument - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 1686705815 - Control 1885540899 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies if you want the report to include information about components that were used in linked assembly orders that supplied the item(s) being sold. (Only possible for RDLC report layout.)</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - Control DisplayAsmInformation - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Report 1686705815 - Control 1885540899 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Show Assembly Components</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - Control DisplayAsmInformation - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 1686705815 - Control 816368762 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies that interactions with the contact are logged.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - Control LogInteraction - Property ToolTip</note>
+        <trans-unit id="Report 1686705815 - Control 2991839654 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Include Shipment No.</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Inclure numéro expédition"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - Control IncludeShptNo - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 1686705815 - Control 816368762 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Log Interaction</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">FRA="Journal interaction"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - Control LogInteraction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1686705815 - Control 2578066365 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Copies</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Nombre de copies"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - Control NoOfCopies - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1686705815 - Control 316520822 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Internal Information</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Afficher info. internes"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Order Conf ENDEMOL STD - Control ShowInternalInfo - Property Caption</note>
         </trans-unit>
       </group>
     </body>

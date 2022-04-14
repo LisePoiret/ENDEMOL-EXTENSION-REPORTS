@@ -1067,7 +1067,6 @@ report 50008 "Sales - Invoice ENDEMOL STD"
         GLSetup.GET;
         CompanyInfo.GET;
         SalesSetup.GET;
-
         CompanyInfo.CALCFIELDS(Picture);
     end;
 
