@@ -1,15 +1,14 @@
-report 50008 "Sales - Invoice ENDEMOL STD"
+report 50011 "Sales Order Conf ENDEMOL STD"
 {
+    RDLCLayout = './Source/Report/rdl/SalesOrderConfENDEMOLSTD.rdl';
+    Caption = 'Sales - Confirmation';
     DefaultLayout = RDLC;
-    RDLCLayout = './Source/Report/rdl/SalesInvoiceENDEMOLSTD.rdl';
-
-    Caption = 'BC6 Sales - Invoice', Comment = 'FRA="Ventes : Facture"';
-    Permissions = TableData "Bank Account" = rimd,
-                  TableData "Sales Shipment Buffer" = rimd;
+    PreviewMode = PrintLayout;
+    WordMergeDataItem = Header;
 
     dataset
     {
-        dataitem("Sales Invoice Header"; "Sales Invoice Header")
+        dataitem(Header; "Sales Header")
         {
             DataItemTableView = SORTING("No.");
             RequestFilterFields = "No.", "Sell-to Customer No.", "No. Printed";
@@ -83,19 +82,19 @@ report 50008 "Sales - Invoice ENDEMOL STD"
                     column(CompanyInfo__Bank_Account_No__; CompanyInfo."Bank Account No.")
                     {
                     }
-                    column(Sales_Invoice_Header___Bill_to_Customer_No__; "Sales Invoice Header"."Bill-to Customer No.")
+                    column(Sales_Invoice_Header___Bill_to_Customer_No__; Header."Bill-to Customer No.")
                     {
                     }
-                    column(Sales_Invoice_Header___Posting_Date_; FORMAT("Sales Invoice Header"."Posting Date"))
+                    column(Sales_Invoice_Header___Posting_Date_; FORMAT(Header."Posting Date"))
                     {
                     }
                     column(VATNoText; VATNoText)
                     {
                     }
-                    column(Sales_Invoice_Header___VAT_Registration_No__; "Sales Invoice Header"."VAT Registration No.")
+                    column(Sales_Invoice_Header___VAT_Registration_No__; Header."VAT Registration No.")
                     {
                     }
-                    column(Sales_Invoice_Header___Due_Date_; FORMAT("Sales Invoice Header"."Due Date"))
+                    column(Sales_Invoice_Header___Due_Date_; FORMAT(Header."Due Date"))
                     {
                     }
                     column(SalesPersonText; SalesPersonText)
@@ -104,19 +103,19 @@ report 50008 "Sales - Invoice ENDEMOL STD"
                     column(SalesPurchPerson_Name; SalesPurchPerson.Name)
                     {
                     }
-                    column(Sales_Invoice_Header___No__; "Sales Invoice Header"."No.")
+                    column(Sales_Invoice_Header___No__; Header."No.")
                     {
                     }
                     column(ReferenceText; ReferenceText)
                     {
                     }
-                    column(Sales_Invoice_Header___Your_Reference_; "Sales Invoice Header"."Your Reference")
+                    column(Sales_Invoice_Header___Your_Reference_; Header."Your Reference")
                     {
                     }
                     column(OrderNoText; OrderNoText)
                     {
                     }
-                    column(Sales_Invoice_Header___Order_No__; "Sales Invoice Header"."Order No.")
+                    column(Sales_Invoice_Header___Order_No__; Header."No.")
                     {
                     }
                     column(CustAddr_7_; CustAddr[7])
@@ -136,16 +135,16 @@ report 50008 "Sales - Invoice ENDEMOL STD"
                     column(BCS_CompanyInfoCounty; CompanyInfo."Country/Region Code") { }
 
                     column(FORMAT__Sales_Invoice_Header___Document_Date__0_4_;
-                    CityOn + DELCHR(FORMAT("Sales Invoice Header"."Document Date", 0, 4), '=', '.'))
+                    CityOn + DELCHR(FORMAT(Header."Document Date", 0, 4), '=', '.'))
                     {
                     }
-                    column(Sales_Invoice_Header___Prices_Including_VAT_; "Sales Invoice Header"."Prices Including VAT")
+                    column(Sales_Invoice_Header___Prices_Including_VAT_; Header."Prices Including VAT")
                     {
                     }
                     column(OutputNo; OutputNo)
                     {
                     }
-                    column(PricesInclVAT_YesNo; FORMAT("Sales Invoice Header"."Prices Including VAT"))
+                    column(PricesInclVAT_YesNo; FORMAT(Header."Prices Including VAT"))
                     {
                     }
                     column(PageCaption; STRSUBSTNO(Text005, ''))
@@ -169,10 +168,10 @@ report 50008 "Sales - Invoice ENDEMOL STD"
                     column(CompanyInfo__Stock_Capital; CompanyInfo."Stock Capital")
                     {
                     }
-                    column(SALES_HEADER_JOB_CODE_VALUE; "Sales Invoice Header"."Shortcut Dimension 1 Code")
+                    column(SALES_HEADER_JOB_CODE_VALUE; Header."Shortcut Dimension 1 Code")
                     {
                     }
-                    column(Sales_Invoice_Header_PrePmtOrderNo; "Sales Invoice Header"."Prepayment Order No.")
+                    column(Sales_Invoice_Header_PrePmtOrderNo; Header."Prepayment No.")
                     {
                     }
                     column(BankAccRIBKey; BankAccRIB."RIB Key")
@@ -226,7 +225,7 @@ report 50008 "Sales - Invoice ENDEMOL STD"
                     column(CompanyInfo__Bank_Account_No__Caption; CompanyInfo__Bank_Account_No__CaptionLbl)
                     {
                     }
-                    column(Sales_Invoice_Header___Bill_to_Customer_No__Caption; "Sales Invoice Header".FIELDCAPTION("Bill-to Customer No."))
+                    column(Sales_Invoice_Header___Bill_to_Customer_No__Caption; Header.FIELDCAPTION("Bill-to Customer No."))
                     {
                     }
                     column(Sales_Invoice_Header___Due_Date_Caption; Sales_Invoice_Header___Due_Date_CaptionLbl)
@@ -238,7 +237,7 @@ report 50008 "Sales - Invoice ENDEMOL STD"
                     column(Sales_Invoice_Header___Posting_Date_Caption; Sales_Invoice_Header___Posting_Date_CaptionLbl)
                     {
                     }
-                    column(Sales_Invoice_Header___Prices_Including_VAT_Caption; "Sales Invoice Header".FIELDCAPTION("Prices Including VAT"))
+                    column(Sales_Invoice_Header___Prices_Including_VAT_Caption; Header.FIELDCAPTION("Prices Including VAT"))
                     {
                     }
                     column(Cust__VAT_Registration_No__Caption; Cust__VAT_Registration_No__CaptionLbl)
@@ -260,6 +259,9 @@ report 50008 "Sales - Invoice ENDEMOL STD"
                     {
                     }
                     column(SALES_HEADER_JOB_CODE_LABEL; SALES_HEADER_JOB_CODE_LABELLbl)
+                    {
+                    }
+                    column(SALES_HEADER_Order_No; SALES_HEADER_Order_NoLbl)
                     {
                     }
                     column(MENTION_TVA_SUR_ENCAISSEMENT; MENTION_TVA_SUR_ENCAISSEMENTLbl)
@@ -292,14 +294,14 @@ report 50008 "Sales - Invoice ENDEMOL STD"
                     column(PageLoop_Number; Number)
                     {
                     }
-                    dataitem("Sales Invoice Line"; "Sales Invoice Line")
+                    dataitem("Sales Invoice Line"; "Sales Line")
                     {
                         DataItemLink = "Document No." = FIELD("No.");
-                        DataItemLinkReference = "Sales Invoice Header";
+                        DataItemLinkReference = Header;
                         DataItemTableView = SORTING("Document No.", "Line No.");
                         column(Sales_Invoice_Line__Line_Amount_; "Line Amount")
                         {
-                            AutoFormatExpression = "Sales Invoice Line".GetCurrencyCode;
+                            AutoFormatExpression = CurrencyCode;
                             AutoFormatType = 1;
                         }
                         column(Sales_Invoice_Line_Description; "BC6 ENDEMOL comment")
@@ -319,7 +321,7 @@ report 50008 "Sales - Invoice ENDEMOL STD"
                         }
                         column(Sales_Invoice_Line__Unit_Price_; "Unit Price")
                         {
-                            AutoFormatExpression = "Sales Invoice Line".GetCurrencyCode;
+                            AutoFormatExpression = CurrencyCode;
                             AutoFormatType = 2;
                         }
                         column(Sales_Invoice_Line__Line_Discount___; "Line Discount %")
@@ -327,7 +329,7 @@ report 50008 "Sales - Invoice ENDEMOL STD"
                         }
                         column(Sales_Invoice_Line__Line_Amount__Control70; "Line Amount")
                         {
-                            AutoFormatExpression = "Sales Invoice Line".GetCurrencyCode;
+                            AutoFormatExpression = CurrencyCode;
                             AutoFormatType = 1;
                         }
                         column(Sales_Invoice_Line__VAT_Identifier_; "VAT Identifier")
@@ -341,7 +343,7 @@ report 50008 "Sales - Invoice ENDEMOL STD"
                         }
                         column(Sales_Invoice_Line__Line_Amount__Control86; "Line Amount")
                         {
-                            AutoFormatExpression = "Sales Invoice Line".GetCurrencyCode;
+                            AutoFormatExpression = CurrencyCode;
                             AutoFormatType = 1;
                         }
                         column(GetTotalInvDiscAmount; GetTotalInvDiscAmount)
@@ -358,22 +360,22 @@ report 50008 "Sales - Invoice ENDEMOL STD"
                         }
                         column(Inv__Discount_Amount_; -"Inv. Discount Amount")
                         {
-                            AutoFormatExpression = "Sales Invoice Line".GetCurrencyCode;
+                            AutoFormatExpression = CurrencyCode;
                             AutoFormatType = 1;
                         }
                         column(Sales_Invoice_Line__Line_Amount__Control99; "Line Amount")
                         {
-                            AutoFormatExpression = "Sales Invoice Header"."Currency Code";
+                            AutoFormatExpression = Header."Currency Code";
                             AutoFormatType = 1;
                         }
                         column(TotalSubTotal; TotalSubTotal)
                         {
-                            AutoFormatExpression = "Sales Invoice Header"."Currency Code";
+                            AutoFormatExpression = Header."Currency Code";
                             AutoFormatType = 1;
                         }
                         column(TotalInvoiceDiscountAmount; TotalInvoiceDiscountAmount)
                         {
-                            AutoFormatExpression = "Sales Invoice Header"."Currency Code";
+                            AutoFormatExpression = Header."Currency Code";
                             AutoFormatType = 1;
                         }
                         column(TotalText; TotalText)
@@ -381,27 +383,27 @@ report 50008 "Sales - Invoice ENDEMOL STD"
                         }
                         column(Sales_Invoice_Line_Amount; Amount)
                         {
-                            AutoFormatExpression = "Sales Invoice Line".GetCurrencyCode;
+                            AutoFormatExpression = CurrencyCode;
                             AutoFormatType = 1;
                         }
                         column(TotalAmount; TotalAmount)
                         {
-                            AutoFormatExpression = "Sales Invoice Header"."Currency Code";
+                            AutoFormatExpression = Header."Currency Code";
                             AutoFormatType = 1;
                         }
                         column(Sales_Invoice_Line_Amount_Control90; Amount)
                         {
-                            AutoFormatExpression = "Sales Invoice Line".GetCurrencyCode;
+                            AutoFormatExpression = CurrencyCode;
                             AutoFormatType = 1;
                         }
                         column(Amount_Including_VAT____Amount; "Amount Including VAT" - Amount)
                         {
-                            AutoFormatExpression = "Sales Invoice Line".GetCurrencyCode;
+                            AutoFormatExpression = CurrencyCode;
                             AutoFormatType = 1;
                         }
                         column(Sales_Invoice_Line__Amount_Including_VAT_; "Amount Including VAT")
                         {
-                            AutoFormatExpression = "Sales Invoice Line".GetCurrencyCode;
+                            AutoFormatExpression = CurrencyCode;
                             AutoFormatType = 1;
                         }
                         column(VATAmountLine_VATAmountText; VATAmountLine.VATAmountText)
@@ -415,20 +417,20 @@ report 50008 "Sales - Invoice ENDEMOL STD"
                         }
                         column(TotalAmountInclVAT; TotalAmountInclVAT)
                         {
-                            AutoFormatExpression = "Sales Invoice Header"."Currency Code";
+                            AutoFormatExpression = Header."Currency Code";
                             AutoFormatType = 1;
                         }
                         column(TotalAmountVAT; TotalAmountVAT)
                         {
-                            AutoFormatExpression = "Sales Invoice Header"."Currency Code";
+                            AutoFormatExpression = Header."Currency Code";
                             AutoFormatType = 1;
                         }
                         column(Line_Amount_____Inv__Discount_Amount_____Amount_Including_VAT__; -("Line Amount" - "Inv. Discount Amount" - "Amount Including VAT"))
                         {
-                            AutoFormatExpression = "Sales Invoice Header"."Currency Code";
+                            AutoFormatExpression = Header."Currency Code";
                             AutoFormatType = 1;
                         }
-                        column(Sales_Invoice_Header___VAT_Base_Discount___; "Sales Invoice Header"."VAT Base Discount %")
+                        column(Sales_Invoice_Header___VAT_Base_Discount___; Header."VAT Base Discount %")
                         {
                             AutoFormatType = 1;
                         }
@@ -444,17 +446,17 @@ report 50008 "Sales - Invoice ENDEMOL STD"
                         }
                         column(Amount_Including_VAT____Amount_Control62; "Amount Including VAT" - Amount)
                         {
-                            AutoFormatExpression = "Sales Invoice Line".GetCurrencyCode;
+                            AutoFormatExpression = CurrencyCode;
                             AutoFormatType = 1;
                         }
                         column(Sales_Invoice_Line_Amount_Control63; Amount)
                         {
-                            AutoFormatExpression = "Sales Invoice Line".GetCurrencyCode;
+                            AutoFormatExpression = CurrencyCode;
                             AutoFormatType = 1;
                         }
                         column(Sales_Invoice_Line__Amount_Including_VAT__Control71; "Amount Including VAT")
                         {
-                            AutoFormatExpression = "Sales Invoice Line".GetCurrencyCode;
+                            AutoFormatExpression = CurrencyCode;
                             AutoFormatType = 1;
                         }
                         column(TotalExclVATText_Control72; TotalExclVATText)
@@ -577,27 +579,27 @@ report 50008 "Sales - Invoice ENDEMOL STD"
                         DataItemTableView = SORTING(Number);
                         column(VATAmountLine__VAT_Base_; VATAmountLine."VAT Base")
                         {
-                            AutoFormatExpression = "Sales Invoice Line".GetCurrencyCode;
+                            AutoFormatExpression = CurrencyCode;
                             AutoFormatType = 1;
                         }
                         column(VATAmountLine__VAT_Amount_; VATAmountLine."VAT Amount")
                         {
-                            AutoFormatExpression = "Sales Invoice Header"."Currency Code";
+                            AutoFormatExpression = Header."Currency Code";
                             AutoFormatType = 1;
                         }
                         column(VATAmountLine__Line_Amount_; VATAmountLine."Line Amount")
                         {
-                            AutoFormatExpression = "Sales Invoice Header"."Currency Code";
+                            AutoFormatExpression = Header."Currency Code";
                             AutoFormatType = 1;
                         }
                         column(VATAmountLine__Inv__Disc__Base_Amount_; VATAmountLine."Inv. Disc. Base Amount")
                         {
-                            AutoFormatExpression = "Sales Invoice Header"."Currency Code";
+                            AutoFormatExpression = Header."Currency Code";
                             AutoFormatType = 1;
                         }
                         column(VATAmountLine__Invoice_Discount_Amount_; VATAmountLine."Invoice Discount Amount")
                         {
-                            AutoFormatExpression = "Sales Invoice Header"."Currency Code";
+                            AutoFormatExpression = Header."Currency Code";
                             AutoFormatType = 1;
                         }
                         column(VATAmountLine__VAT___; VATAmountLine."VAT %")
@@ -606,12 +608,12 @@ report 50008 "Sales - Invoice ENDEMOL STD"
                         }
                         column(VATAmountLine__VAT_Base__Control108; VATAmountLine."VAT Base")
                         {
-                            AutoFormatExpression = "Sales Invoice Header"."Currency Code";
+                            AutoFormatExpression = Header."Currency Code";
                             AutoFormatType = 1;
                         }
                         column(VATAmountLine__VAT_Amount__Control109; VATAmountLine."VAT Amount")
                         {
-                            AutoFormatExpression = "Sales Invoice Header"."Currency Code";
+                            AutoFormatExpression = Header."Currency Code";
                             AutoFormatType = 1;
                         }
                         column(VATAmountLine__VAT_Identifier_; VATAmountLine."VAT Identifier")
@@ -619,67 +621,67 @@ report 50008 "Sales - Invoice ENDEMOL STD"
                         }
                         column(VATAmountLine__Line_Amount__Control140; VATAmountLine."Line Amount")
                         {
-                            AutoFormatExpression = "Sales Invoice Header"."Currency Code";
+                            AutoFormatExpression = Header."Currency Code";
                             AutoFormatType = 1;
                         }
                         column(VATAmountLine__Inv__Disc__Base_Amount__Control141; VATAmountLine."Inv. Disc. Base Amount")
                         {
-                            AutoFormatExpression = "Sales Invoice Header"."Currency Code";
+                            AutoFormatExpression = Header."Currency Code";
                             AutoFormatType = 1;
                         }
                         column(VATAmountLine__Invoice_Discount_Amount__Control142; VATAmountLine."Invoice Discount Amount")
                         {
-                            AutoFormatExpression = "Sales Invoice Header"."Currency Code";
+                            AutoFormatExpression = Header."Currency Code";
                             AutoFormatType = 1;
                         }
                         column(VATAmountLine__VAT_Base__Control112; VATAmountLine."VAT Base")
                         {
-                            AutoFormatExpression = "Sales Invoice Header"."Currency Code";
+                            AutoFormatExpression = Header."Currency Code";
                             AutoFormatType = 1;
                         }
                         column(VATAmountLine__VAT_Amount__Control113; VATAmountLine."VAT Amount")
                         {
-                            AutoFormatExpression = "Sales Invoice Header"."Currency Code";
+                            AutoFormatExpression = Header."Currency Code";
                             AutoFormatType = 1;
                         }
                         column(VATAmountLine__Line_Amount__Control110; VATAmountLine."Line Amount")
                         {
-                            AutoFormatExpression = "Sales Invoice Header"."Currency Code";
+                            AutoFormatExpression = Header."Currency Code";
                             AutoFormatType = 1;
                         }
                         column(VATAmountLine__Inv__Disc__Base_Amount__Control114; VATAmountLine."Inv. Disc. Base Amount")
                         {
-                            AutoFormatExpression = "Sales Invoice Header"."Currency Code";
+                            AutoFormatExpression = Header."Currency Code";
                             AutoFormatType = 1;
                         }
                         column(VATAmountLine__Invoice_Discount_Amount__Control118; VATAmountLine."Invoice Discount Amount")
                         {
-                            AutoFormatExpression = "Sales Invoice Header"."Currency Code";
+                            AutoFormatExpression = Header."Currency Code";
                             AutoFormatType = 1;
                         }
                         column(VATAmountLine__VAT_Base__Control116; VATAmountLine."VAT Base")
                         {
-                            AutoFormatExpression = "Sales Invoice Header"."Currency Code";
+                            AutoFormatExpression = Header."Currency Code";
                             AutoFormatType = 1;
                         }
                         column(VATAmountLine__VAT_Amount__Control117; VATAmountLine."VAT Amount")
                         {
-                            AutoFormatExpression = "Sales Invoice Header"."Currency Code";
+                            AutoFormatExpression = Header."Currency Code";
                             AutoFormatType = 1;
                         }
                         column(VATAmountLine__Line_Amount__Control132; VATAmountLine."Line Amount")
                         {
-                            AutoFormatExpression = "Sales Invoice Header"."Currency Code";
+                            AutoFormatExpression = Header."Currency Code";
                             AutoFormatType = 1;
                         }
                         column(VATAmountLine__Inv__Disc__Base_Amount__Control133; VATAmountLine."Inv. Disc. Base Amount")
                         {
-                            AutoFormatExpression = "Sales Invoice Header"."Currency Code";
+                            AutoFormatExpression = Header."Currency Code";
                             AutoFormatType = 1;
                         }
                         column(VATAmountLine__Invoice_Discount_Amount__Control134; VATAmountLine."Invoice Discount Amount")
                         {
-                            AutoFormatExpression = "Sales Invoice Header"."Currency Code";
+                            AutoFormatExpression = Header."Currency Code";
                             AutoFormatType = 1;
                         }
                         column(VATAmountLine__VAT___Caption; VATAmountLine__VAT___CaptionLbl)
@@ -808,14 +810,14 @@ report 50008 "Sales - Invoice ENDEMOL STD"
                         begin
                             VATAmountLine.GetLine(Number);
 
-                            VALVATBaseLCY := ROUND(VATAmountLine."VAT Base" / "Sales Invoice Header"."Currency Factor");
-                            VALVATAmountLCY := ROUND(VATAmountLine."VAT Amount" / "Sales Invoice Header"."Currency Factor");
+                            VALVATBaseLCY := ROUND(VATAmountLine."VAT Base" / Header."Currency Factor");
+                            VALVATAmountLCY := ROUND(VATAmountLine."VAT Amount" / Header."Currency Factor");
                         end;
 
                         trigger OnPreDataItem()
                         begin
                             IF (NOT GLSetup."Print VAT specification in LCY") OR
-                               ("Sales Invoice Header"."Currency Code" = '') OR
+                               (Header."Currency Code" = '') OR
                                (VATAmountLine.GetTotalVATAmount = 0) THEN
                                 CurrReport.BREAK;
 
@@ -826,8 +828,8 @@ report 50008 "Sales - Invoice ENDEMOL STD"
                             ELSE
                                 VALSpecLCYHeader := Text007 + FORMAT(GLSetup."LCY Code");
 
-                            CurrExchRate.FindCurrency("Sales Invoice Header"."Posting Date", "Sales Invoice Header"."Currency Code", 1);
-                            CalculatedExchRate := ROUND(1 / "Sales Invoice Header"."Currency Factor" * CurrExchRate."Exchange Rate Amount", 0.000001);
+                            CurrExchRate.FindCurrency(Header."Posting Date", Header."Currency Code", 1);
+                            CalculatedExchRate := ROUND(1 / Header."Currency Factor" * CurrExchRate."Exchange Rate Amount", 0.000001);
                             VALExchRate := STRSUBSTNO(Text009, CalculatedExchRate, CurrExchRate."Exchange Rate Amount");
                         end;
                     }
@@ -879,7 +881,7 @@ report 50008 "Sales - Invoice ENDEMOL STD"
                 trigger OnPostDataItem()
                 begin
                     IF NOT CurrReport.PREVIEW THEN
-                        SalesInvCountPrinted.RUN("Sales Invoice Header");
+                        SalesCountPrinted.RUN(Header);
                 end;
 
                 trigger OnPreDataItem()
@@ -916,10 +918,10 @@ report 50008 "Sales - Invoice ENDEMOL STD"
 
                 DimSetEntry1.SetRange("Dimension Set ID", "Dimension Set ID");
 
-                IF "Order No." = '' THEN
+                IF "No." = '' THEN
                     OrderNoText := ''
                 ELSE
-                    OrderNoText := FIELDCAPTION("Order No.");
+                    OrderNoText := FIELDCAPTION("No.");
                 IF "Salesperson Code" = '' THEN BEGIN
                     SalesPurchPerson.INIT;
                     SalesPersonText := '';
@@ -951,7 +953,7 @@ report 50008 "Sales - Invoice ENDEMOL STD"
                     TotalInclVATText := STRSUBSTNO(Text002, "Currency Code");
                     TotalExclVATText := STRSUBSTNO(Text006, "Currency Code");
                 END;
-                FormatAddr.SalesInvBillTo(CustAddr, "Sales Invoice Header");
+                FormatAddr.SalesHeaderBillTo(CustAddr, Header);
                 IF NOT Cust.GET("Bill-to Customer No.") THEN
                     CLEAR(Cust);
 
@@ -985,7 +987,7 @@ report 50008 "Sales - Invoice ENDEMOL STD"
                 // >>> VBS(CDE) 09/05/19 ENDE01P-128473 Ajout d'un RIB sur les factures, avoirs et commande vente en aperçu et impression
 
 
-                FormatAddr.SalesInvShipTo(ShipToAddr, CustAddr, "Sales Invoice Header");
+                FormatAddr.SalesHeaderShipTo(ShipToAddr, CustAddr, Header);
                 ShowShippingAddr := "Sell-to Customer No." <> "Bill-to Customer No.";
                 FOR i := 1 TO ARRAYLEN(ShipToAddr) DO
                     IF ShipToAddr[i] <> CustAddr[i] THEN
@@ -1061,15 +1063,36 @@ report 50008 "Sales - Invoice ENDEMOL STD"
 
     trigger OnInitReport()
     begin
-        GLSetup.GET;
-        CompanyInfo.GET;
-        SalesSetup.GET;
-        CompanyInfo.CALCFIELDS(Picture);
+        GLSetup.Get();
+        CompanyInfo.SetAutoCalcFields(Picture);
+        CompanyInfo.Get();
+        SalesSetup.Get();
+        CompanyInfo.VerifyAndSetPaymentInfo;
+    end;
+
+    trigger OnPostReport()
+    begin
+        if LogInteraction and not IsReportInPreviewMode then
+            if Header.FindSet then
+                repeat
+                    Header.CalcFields("No. of Archived Versions");
+                    if Header."Bill-to Contact No." <> '' then
+                        SegManagement.LogDocument(
+                          3, Header."No.", Header."Doc. No. Occurrence",
+                          Header."No. of Archived Versions", DATABASE::Contact, Header."Bill-to Contact No."
+                          , Header."Salesperson Code", Header."Campaign No.", Header."Posting Description", Header."Opportunity No.")
+                    else
+                        SegManagement.LogDocument(
+                          3, Header."No.", Header."Doc. No. Occurrence",
+                          Header."No. of Archived Versions", DATABASE::Customer, Header."Bill-to Customer No.",
+                          Header."Salesperson Code", Header."Campaign No.", Header."Posting Description", Header."Opportunity No.");
+
+                until Header.Next() = 0;
     end;
 
     trigger OnPreReport()
     begin
-        IF NOT CurrReport.USEREQUESTPAGE THEN
+        if not CurrReport.UseRequestPage then
             InitLogInteraction;
     end;
 
@@ -1096,7 +1119,7 @@ report 50008 "Sales - Invoice ENDEMOL STD"
         RespCenter: Record "Responsibility Center";
         Language: Codeunit Language;
         CurrExchRate: Record "Currency Exchange Rate";
-        SalesInvCountPrinted: Codeunit "Sales Inv.-Printed";
+        SalesCountPrinted: Codeunit "Sales-Printed";
         FormatAddr: Codeunit "Format Address";
         SegManagement: Codeunit SegManagement;
         SalesShipmentBuffer: Record "Sales Shipment Buffer" temporary;
@@ -1164,7 +1187,7 @@ report 50008 "Sales - Invoice ENDEMOL STD"
         TextMention002: Label 'No discount for anticipated payment. In accordance with article n°L441-6 of the Code of commerce (Trade Rules), in case of delay of the payment at the due date, a penalty will be applied basis on a 10% rate', Comment = 'FRA="Pas d''escompte en cas de règlement anticipé. Conformément à l''article L441-6 du Code du commerce, il sera appliqué, en cas de retard de paiement à l''échéance, une pénalité calculée sur la base d''un taux égal à 10%"';
         TextMention003: Label ' and a lump sum, for debt recovery, of 40 euros. These penalties will be payable as soon the debit note will be issue.', Comment = 'FRA=" ainsi qu''une indemnité forfaitaire pour frais de recouvrement d''un montant de 40 euros. Ces pénalités sont payables à réception de l''avis vous informant que nous les avons portées à votre débit."';
         DocumentText: Text[50];
-        TextInvoice: Label 'Invoice No.', Comment = 'FRA="N° facture"';
+        TextInvoice: Label 'Order Conf. No.', Comment = 'FRA="N° Conf Commande"';
         TextFundCall: Label 'Fund Call No.', Comment = 'FRA="N° appel de fonds"';
         CompanyInfo__Phone_No__CaptionLbl: Label 'Phone No.', Comment = 'FRA="N° téléphone"';
         CompanyInfo__Fax_No__CaptionLbl: Label 'Fax No.', Comment = 'FRA="N° télécopie"';
@@ -1173,7 +1196,7 @@ report 50008 "Sales - Invoice ENDEMOL STD"
         CompanyInfo__Bank_Name_CaptionLbl: Label 'Bank', Comment = 'FRA="Banque"';
         CompanyInfo__Bank_Account_No__CaptionLbl: Label 'Account No.', Comment = 'FRA="N° compte"';
         Sales_Invoice_Header___Due_Date_CaptionLbl: Label 'Due Date :', Comment = 'FRA="Date d''échéance :"';
-        Invoice_No_Caption_OLDLbl: Label 'Invoice No.', Comment = 'FRA="N° facture"';
+        Invoice_No_Caption_OLDLbl: Label 'Order Conf. No.', Comment = 'FRA="N° Conf Commande"';
         Sales_Invoice_Header___Posting_Date_CaptionLbl: Label 'Posting Date', Comment = 'FRA="Date comptabilisation"';
         Cust__VAT_Registration_No__CaptionLbl: Label 'VAT Reg. No.', Comment = 'FRA="N° id. intracomm."';
         CompanyInfo__Registration_No__CaptionLbl: Label 'SIRET N° ', Comment = 'FRA="N° SIRET "';
@@ -1224,12 +1247,63 @@ report 50008 "Sales - Invoice ENDEMOL STD"
         ShipmentMethod_DescriptionCaptionLbl: Label 'Shipment Method :', Comment = 'FRA="Conditions de livraison :"';
         PmtMethod_DescriptionCaptionLbl: Label 'Payment method :', Comment = 'FRA="Mode de paiement :"';
 
-    [Scope('OnPrem')]
-    procedure InitLogInteraction()
+    local procedure InitLogInteraction()
     begin
-        LogInteraction := SegManagement.FindInteractTmplCode(4) <> '';
+        LogInteraction := SegManagement.FindInteractTmplCode(3) <> '';
     end;
 
+    local procedure DocumentCaption(): Text[250]
+    begin
+        EXIT(Text004);
+    end;
+
+    procedure InitializeRequest(NewLogInteraction: Boolean; DisplayAsmInfo: Boolean)
+    begin
+        LogInteraction := NewLogInteraction;
+        //SBL
+        //DisplayAssemblyInformation := DisplayAsmInfo;
+    end;
+
+    local procedure IsReportInPreviewMode(): Boolean
+    var
+        MailManagement: Codeunit "Mail Management";
+    begin
+        exit(CurrReport.Preview or MailManagement.IsHandlingGetEmailBody);
+    end;
+
+    // local procedure FormatDocumentFields(SalesHeader: Record "Sales Header")
+    // begin
+    //     with SalesHeader do begin
+    //         FormatDocument.SetTotalLabels("Currency Code", TotalText, TotalInclVATText, TotalExclVATText);
+    //         FormatDocument.SetSalesPerson(SalespersonPurchaser, "Salesperson Code", SalesPersonText);
+    //         FormatDocument.SetPaymentTerms(PaymentTerms, "Payment Terms Code", "Language Code");
+    //         FormatDocument.SetPaymentMethod(PaymentMethod, "Payment Method Code", "Language Code");
+    //         FormatDocument.SetShipmentMethod(ShipmentMethod, "Shipment Method Code", "Language Code");
+    //     end;
+    // end;
+
+    local procedure GetUOMText(UOMCode: Code[10]): Text[50]
+    var
+        UnitOfMeasure: Record "Unit of Measure";
+    begin
+        if not UnitOfMeasure.Get(UOMCode) then
+            exit(UOMCode);
+        exit(UnitOfMeasure.Description);
+    end;
+
+    // local procedure CreateReportTotalLines()
+    // begin
+    //     ReportTotalsLine.DeleteAll();
+    //     if (TotalInvDiscAmount <> 0) or (TotalAmountVAT <> 0) then
+    //         ReportTotalsLine.Add(SubtotalLbl, TotalSubTotal, true, false, false);
+    //     if TotalInvDiscAmount <> 0 then begin
+    //         ReportTotalsLine.Add(InvDiscountAmtLbl, TotalInvDiscAmount, false, false, false);
+    //         if TotalAmountVAT <> 0 then
+    //             ReportTotalsLine.Add(TotalExclVATText, TotalAmount, true, false, false);
+    //     end;
+    //     if TotalAmountVAT <> 0 then
+    //         ReportTotalsLine.Add(VATAmountLine.VATAmountText, TotalAmountVAT, false, true, false);
+    // end;
     [Scope('OnPrem')]
     procedure FindPostedShipmentDate(): Date
     var
@@ -1241,8 +1315,8 @@ report 50008 "Sales - Invoice ENDEMOL STD"
             IF SalesShipmentHeader.GET("Sales Invoice Line"."Shipment No.") THEN
                 EXIT(SalesShipmentHeader."Posting Date");
 
-        IF "Sales Invoice Header"."Order No." = '' THEN
-            EXIT("Sales Invoice Header"."Posting Date");
+        IF Header."No." = '' THEN
+            EXIT(Header."Posting Date");
 
         CASE "Sales Invoice Line".Type OF
             "Sales Invoice Line".Type::Item:
@@ -1268,14 +1342,14 @@ report 50008 "Sales - Invoice ENDEMOL STD"
             SalesShipmentBuffer.CALCSUMS(Quantity);
             IF SalesShipmentBuffer.Quantity <> "Sales Invoice Line".Quantity THEN BEGIN
                 SalesShipmentBuffer.DELETEALL;
-                EXIT("Sales Invoice Header"."Posting Date");
+                EXIT(Header."Posting Date");
             END;
         END ELSE
-            EXIT("Sales Invoice Header"."Posting Date");
+            EXIT(Header."Posting Date");
     end;
 
     [Scope('OnPrem')]
-    procedure GenerateBufferFromValueEntry(SalesInvoiceLine2: Record "Sales Invoice Line")
+    procedure GenerateBufferFromValueEntry(SalesInvoiceLine2: Record "Sales Line")
     var
         ValueEntry: Record "Value Entry";
         ItemLedgerEntry: Record "Item Ledger Entry";
@@ -1285,7 +1359,7 @@ report 50008 "Sales - Invoice ENDEMOL STD"
         TotalQuantity := SalesInvoiceLine2."Quantity (Base)";
         ValueEntry.SETCURRENTKEY("Document No.");
         ValueEntry.SETRANGE("Document No.", SalesInvoiceLine2."Document No.");
-        ValueEntry.SETRANGE("Posting Date", "Sales Invoice Header"."Posting Date");
+        ValueEntry.SETRANGE("Posting Date", Header."Posting Date");
         ValueEntry.SETRANGE("Item Charge No.", '');
         ValueEntry.SETFILTER("Entry No.", '%1..', FirstValueEntryNo);
         IF ValueEntry.FIND('-') THEN
@@ -1306,7 +1380,7 @@ report 50008 "Sales - Invoice ENDEMOL STD"
     end;
 
     [Scope('OnPrem')]
-    procedure GenerateBufferFromShipment(SalesInvoiceLine: Record "Sales Invoice Line")
+    procedure GenerateBufferFromShipment(SalesInvoiceLine: Record "Sales Line")
     var
         SalesInvoiceHeader: Record "Sales Invoice Header";
         SalesInvoiceLine2: Record "Sales Invoice Line";
@@ -1317,8 +1391,8 @@ report 50008 "Sales - Invoice ENDEMOL STD"
     begin
         TotalQuantity := 0;
         SalesInvoiceHeader.SETCURRENTKEY("Order No.");
-        SalesInvoiceHeader.SETFILTER("No.", '..%1', "Sales Invoice Header"."No.");
-        SalesInvoiceHeader.SETRANGE("Order No.", "Sales Invoice Header"."Order No.");
+        SalesInvoiceHeader.SETFILTER("No.", '..%1', Header."No.");
+        SalesInvoiceHeader.SETRANGE("Order No.", Header."No.");
         IF SalesInvoiceHeader.FIND('-') THEN
             REPEAT
                 SalesInvoiceLine2.SETRANGE("Document No.", SalesInvoiceHeader."No.");
@@ -1333,7 +1407,7 @@ report 50008 "Sales - Invoice ENDEMOL STD"
             UNTIL SalesInvoiceHeader.NEXT = 0;
 
         SalesShipmentLine.SETCURRENTKEY("Order No.", "Order Line No.");
-        SalesShipmentLine.SETRANGE("Order No.", "Sales Invoice Header"."Order No.");
+        SalesShipmentLine.SETRANGE("Order No.", Header."No.");
         SalesShipmentLine.SETRANGE("Order Line No.", SalesInvoiceLine."Line No.");
         SalesShipmentLine.SETRANGE("Line No.", SalesInvoiceLine."Line No.");
         SalesShipmentLine.SETRANGE(Type, SalesInvoiceLine.Type);
@@ -1343,7 +1417,7 @@ report 50008 "Sales - Invoice ENDEMOL STD"
 
         IF SalesShipmentLine.FIND('-') THEN
             REPEAT
-                IF "Sales Invoice Header"."Get Shipment Used" THEN
+                IF Header."Get Shipment Used" THEN
                     CorrectShipment(SalesShipmentLine);
                 IF ABS(SalesShipmentLine.Quantity) <= ABS(TotalQuantity - SalesInvoiceLine.Quantity) THEN
                     TotalQuantity := TotalQuantity - SalesShipmentLine.Quantity
@@ -1367,21 +1441,7 @@ report 50008 "Sales - Invoice ENDEMOL STD"
     end;
 
     [Scope('OnPrem')]
-    procedure CorrectShipment(var SalesShipmentLine: Record "Sales Shipment Line")
-    var
-        SalesInvoiceLine: Record "Sales Invoice Line";
-    begin
-        SalesInvoiceLine.SETCURRENTKEY("Shipment No.", "Shipment Line No.");
-        SalesInvoiceLine.SETRANGE("Shipment No.", SalesShipmentLine."Document No.");
-        SalesInvoiceLine.SETRANGE("Shipment Line No.", SalesShipmentLine."Line No.");
-        IF SalesInvoiceLine.FIND('-') THEN
-            REPEAT
-                SalesShipmentLine.Quantity := SalesShipmentLine.Quantity - SalesInvoiceLine.Quantity;
-            UNTIL SalesInvoiceLine.NEXT = 0;
-    end;
-
-    [Scope('OnPrem')]
-    procedure AddBufferEntry(SalesInvoiceLine: Record "Sales Invoice Line"; QtyOnShipment: Decimal; PostingDate: Date)
+    procedure AddBufferEntry(SalesInvoiceLine: Record "Sales Line"; QtyOnShipment: Decimal; PostingDate: Date)
     begin
         SalesShipmentBuffer.SETRANGE("Document No.", SalesInvoiceLine."Document No.");
         SalesShipmentBuffer.SETRANGE("Line No.", SalesInvoiceLine."Line No.");
@@ -1403,11 +1463,33 @@ report 50008 "Sales - Invoice ENDEMOL STD"
         NextEntryNo := NextEntryNo + 1
     end;
 
-    local procedure DocumentCaption(): Text[250]
+    [Scope('OnPrem')]
+    procedure CorrectShipment(var SalesShipmentLine: Record "Sales Shipment Line")
+    var
+        SalesInvoiceLine: Record "Sales Invoice Line";
     begin
-        IF "Sales Invoice Header"."Prepayment Invoice" THEN
-            EXIT(Text010);
-        EXIT(Text004);
+        SalesInvoiceLine.SETCURRENTKEY("Shipment No.", "Shipment Line No.");
+        SalesInvoiceLine.SETRANGE("Shipment No.", SalesShipmentLine."Document No.");
+        SalesInvoiceLine.SETRANGE("Shipment Line No.", SalesShipmentLine."Line No.");
+        IF SalesInvoiceLine.FIND('-') THEN
+            REPEAT
+                SalesShipmentLine.Quantity := SalesShipmentLine.Quantity - SalesInvoiceLine.Quantity;
+            UNTIL SalesInvoiceLine.NEXT = 0;
+    end;
+
+
+    [IntegrationEvent(false, false)]
+    local procedure OnAfterOnInit(var SalesHeader: Record "Sales Header")
+    begin
+    end;
+
+    [IntegrationEvent(false, false)]
+    local procedure OnHeaderOnAfterGetRecordOnAfterUpdateVATOnLines(var SalesHeader: Record "Sales Header"; var SalesLine: Record "Sales Line"; var VATAmountLine: Record "VAT Amount Line")
+    begin
+    end;
+
+    [IntegrationEvent(false, false)]
+    local procedure OnLineOnAfterGetRecordOnAfterCalcTotals(var SalesHeader: Record "Sales Header"; var SalesLine: Record "Sales Line"; var VATBaseAmount: Decimal; var VATAmount: Decimal; var TotalAmountInclVAT: Decimal)
+    begin
     end;
 }
-
