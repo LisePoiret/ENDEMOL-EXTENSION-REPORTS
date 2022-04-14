@@ -1187,7 +1187,7 @@ report 50011 "Sales Order Conf ENDEMOL STD"
         TextMention002: Label 'No discount for anticipated payment. In accordance with article n°L441-6 of the Code of commerce (Trade Rules), in case of delay of the payment at the due date, a penalty will be applied basis on a 10% rate', Comment = 'FRA="Pas d''escompte en cas de règlement anticipé. Conformément à l''article L441-6 du Code du commerce, il sera appliqué, en cas de retard de paiement à l''échéance, une pénalité calculée sur la base d''un taux égal à 10%"';
         TextMention003: Label ' and a lump sum, for debt recovery, of 40 euros. These penalties will be payable as soon the debit note will be issue.', Comment = 'FRA=" ainsi qu''une indemnité forfaitaire pour frais de recouvrement d''un montant de 40 euros. Ces pénalités sont payables à réception de l''avis vous informant que nous les avons portées à votre débit."';
         DocumentText: Text[50];
-        TextInvoice: Label 'Invoice No.', Comment = 'FRA="N° facture"';
+        TextInvoice: Label 'Order Conf. No.', Comment = 'FRA="N° Conf Commande"';
         TextFundCall: Label 'Fund Call No.', Comment = 'FRA="N° appel de fonds"';
         CompanyInfo__Phone_No__CaptionLbl: Label 'Phone No.', Comment = 'FRA="N° téléphone"';
         CompanyInfo__Fax_No__CaptionLbl: Label 'Fax No.', Comment = 'FRA="N° télécopie"';
@@ -1196,7 +1196,7 @@ report 50011 "Sales Order Conf ENDEMOL STD"
         CompanyInfo__Bank_Name_CaptionLbl: Label 'Bank', Comment = 'FRA="Banque"';
         CompanyInfo__Bank_Account_No__CaptionLbl: Label 'Account No.', Comment = 'FRA="N° compte"';
         Sales_Invoice_Header___Due_Date_CaptionLbl: Label 'Due Date :', Comment = 'FRA="Date d''échéance :"';
-        Invoice_No_Caption_OLDLbl: Label 'Invoice No.', Comment = 'FRA="N° facture"';
+        Invoice_No_Caption_OLDLbl: Label 'Order Conf. No.', Comment = 'FRA="N° Conf Commande"';
         Sales_Invoice_Header___Posting_Date_CaptionLbl: Label 'Posting Date', Comment = 'FRA="Date comptabilisation"';
         Cust__VAT_Registration_No__CaptionLbl: Label 'VAT Reg. No.', Comment = 'FRA="N° id. intracomm."';
         CompanyInfo__Registration_No__CaptionLbl: Label 'SIRET N° ', Comment = 'FRA="N° SIRET "';
