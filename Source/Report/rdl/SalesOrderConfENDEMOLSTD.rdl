@@ -4759,66 +4759,10 @@ Fields!SALES_HEADER_JOB_CODE_VALUE.Value
                     <PaddingBottom>1pt</PaddingBottom>
                   </Style>
                 </Textbox>
-                <Textbox Name="textbox63">
-                  <CanGrow>true</CanGrow>
-                  <KeepTogether>true</KeepTogether>
-                  <Paragraphs>
-                    <Paragraph>
-                      <TextRuns>
-                        <TextRun>
-                          <Value>=Code.GetData(28,4)</Value>
-                          <Style>
-                            <FontSize>8pt</FontSize>
-                          </Style>
-                        </TextRun>
-                      </TextRuns>
-                      <Style />
-                    </Paragraph>
-                  </Paragraphs>
-                  <Top>1.49356cm</Top>
-                  <Left>0cm</Left>
-                  <Height>0.423cm</Height>
-                  <Width>3.15cm</Width>
-                  <ZIndex>6</ZIndex>
-                  <Style>
-                    <PaddingLeft>2pt</PaddingLeft>
-                    <PaddingRight>1pt</PaddingRight>
-                    <PaddingTop>1pt</PaddingTop>
-                    <PaddingBottom>1pt</PaddingBottom>
-                  </Style>
-                </Textbox>
-                <Textbox Name="textbox64">
-                  <CanGrow>true</CanGrow>
-                  <KeepTogether>true</KeepTogether>
-                  <Paragraphs>
-                    <Paragraph>
-                      <TextRuns>
-                        <TextRun>
-                          <Value>=Code.GetData(10,4)</Value>
-                          <Style>
-                            <FontSize>8pt</FontSize>
-                          </Style>
-                        </TextRun>
-                      </TextRuns>
-                      <Style />
-                    </Paragraph>
-                  </Paragraphs>
-                  <Top>1.49356cm</Top>
-                  <Left>4.44444cm</Left>
-                  <Height>0.423cm</Height>
-                  <Width>3.49207cm</Width>
-                  <ZIndex>7</ZIndex>
-                  <Style>
-                    <PaddingLeft>2pt</PaddingLeft>
-                    <PaddingRight>1pt</PaddingRight>
-                    <PaddingTop>1pt</PaddingTop>
-                    <PaddingBottom>1pt</PaddingBottom>
-                  </Style>
-                </Textbox>
               </ReportItems>
               <DataElementOutput>ContentsOnly</DataElementOutput>
               <Top>7.93639cm</Top>
-              <Height>2.11092cm</Height>
+              <Height>1.64338cm</Height>
               <Width>7.93651cm</Width>
               <ZIndex>1</ZIndex>
               <Style>
