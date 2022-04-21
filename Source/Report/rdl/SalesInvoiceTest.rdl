@@ -36,7 +36,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value>=Code.IsNewPage(0,Fields!Sales_Invoice_Header_No_.Value,Fields!OutputNo.Value)</Value>
+                                      <Value>=Code.IsNewPage(0,Fields!Sales_Header_No_.Value,Fields!OutputNo.Value)</Value>
                                       <Style>
                                         <FontSize>7pt</FontSize>
                                         <Color>Red</Color>
@@ -54,6 +54,9 @@
                                 <Hidden>true</Hidden>
                               </Visibility>
                               <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
                                 <PaddingLeft>2pt</PaddingLeft>
                                 <PaddingRight>2pt</PaddingRight>
                                 <PaddingTop>2pt</PaddingTop>
@@ -794,14 +797,14 @@
                                       </TablixCell>
                                       <TablixCell>
                                         <CellContents>
-                                          <Textbox Name="Sales_Invoice_Line_QuantityCaption">
+                                          <Textbox Name="Sales_Line_QuantityCaption">
                                             <CanGrow>true</CanGrow>
                                             <KeepTogether>true</KeepTogether>
                                             <Paragraphs>
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value>=First(Fields!Sales_Invoice_Line_QuantityCaption.Value)</Value>
+                                                    <Value>=First(Fields!Sales_Line_QuantityCaption.Value)</Value>
                                                     <Style>
                                                       <FontSize>9pt</FontSize>
                                                       <FontWeight>Bold</FontWeight>
@@ -814,7 +817,7 @@
                                                 </Style>
                                               </Paragraph>
                                             </Paragraphs>
-                                            <rd:DefaultName>Sales_Invoice_Line_QuantityCaption</rd:DefaultName>
+                                            <rd:DefaultName>Sales_Line_QuantityCaption</rd:DefaultName>
                                             <ZIndex>149</ZIndex>
                                             <Style>
                                               <PaddingLeft>2pt</PaddingLeft>
@@ -923,7 +926,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value>=Fields!Sales_Invoice_Line_Description.Value</Value>
+                                                    <Value>=Fields!Sales_Line_Description.Value</Value>
                                                     <Style>
                                                       <FontSize>9pt</FontSize>
                                                     </Style>
@@ -1067,7 +1070,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value>=Fields!Sales_Invoice_Line_Description.Value</Value>
+                                                    <Value>=Fields!Sales_Line_Description.Value</Value>
                                                     <Style>
                                                       <FontSize>9pt</FontSize>
                                                     </Style>
@@ -1088,17 +1091,17 @@
                                       </TablixCell>
                                       <TablixCell>
                                         <CellContents>
-                                          <Textbox Name="Sales_Invoice_Line_Quantity">
+                                          <Textbox Name="Sales_Line_Quantity">
                                             <CanGrow>true</CanGrow>
                                             <KeepTogether>true</KeepTogether>
                                             <Paragraphs>
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value>=Code.BlankZero(Fields!Sales_Invoice_Line_Quantity.Value)</Value>
+                                                    <Value>=Code.BlankZero(Fields!Sales_Line_Quantity.Value)</Value>
                                                     <Style>
                                                       <FontSize>9pt</FontSize>
-                                                      <Format>=Fields!Sales_Invoice_Line_QuantityFormat.Value</Format>
+                                                      <Format>=Fields!Sales_Line_QuantityFormat.Value</Format>
                                                     </Style>
                                                   </TextRun>
                                                 </TextRuns>
@@ -1107,9 +1110,12 @@
                                                 </Style>
                                               </Paragraph>
                                             </Paragraphs>
-                                            <rd:DefaultName>Sales_Invoice_Line_Quantity</rd:DefaultName>
+                                            <rd:DefaultName>Sales_Line_Quantity</rd:DefaultName>
                                             <ZIndex>134</ZIndex>
                                             <Style>
+                                              <Border>
+                                                <Style>None</Style>
+                                              </Border>
                                               <PaddingLeft>2pt</PaddingLeft>
                                               <PaddingRight>2pt</PaddingRight>
                                               <PaddingTop>2pt</PaddingTop>
@@ -1120,17 +1126,17 @@
                                       </TablixCell>
                                       <TablixCell>
                                         <CellContents>
-                                          <Textbox Name="Sales_Invoice_Line__Unit_Price_">
+                                          <Textbox Name="Sales_Line__Unit_Price_">
                                             <CanGrow>true</CanGrow>
                                             <KeepTogether>true</KeepTogether>
                                             <Paragraphs>
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value>=Code.BlankZero(Fields!Sales_Invoice_Line__Unit_Price_.Value)</Value>
+                                                    <Value>=Code.BlankZero(Fields!Sales_Line__Unit_Price_.Value)</Value>
                                                     <Style>
                                                       <FontSize>9pt</FontSize>
-                                                      <Format>=Fields!Sales_Invoice_Line__Unit_Price_Format.Value</Format>
+                                                      <Format>=Fields!Sales_Line__Unit_Price_Format.Value</Format>
                                                     </Style>
                                                   </TextRun>
                                                 </TextRuns>
@@ -1139,7 +1145,7 @@
                                                 </Style>
                                               </Paragraph>
                                             </Paragraphs>
-                                            <rd:DefaultName>Sales_Invoice_Line__Unit_Price_</rd:DefaultName>
+                                            <rd:DefaultName>Sales_Line__Unit_Price_</rd:DefaultName>
                                             <ZIndex>132</ZIndex>
                                             <Style>
                                               <PaddingLeft>2pt</PaddingLeft>
@@ -1152,17 +1158,17 @@
                                       </TablixCell>
                                       <TablixCell>
                                         <CellContents>
-                                          <Textbox Name="Sales_Invoice_Line__Line_Amount_">
+                                          <Textbox Name="Sales_Line__Line_Amount_">
                                             <CanGrow>true</CanGrow>
                                             <KeepTogether>true</KeepTogether>
                                             <Paragraphs>
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value>=Code.BlankZero(Fields!Sales_Invoice_Line__Line_Amount_.Value)</Value>
+                                                    <Value>=Code.BlankZero(Fields!Sales_Line__Line_Amount_.Value)</Value>
                                                     <Style>
                                                       <FontSize>9pt</FontSize>
-                                                      <Format>=Fields!Sales_Invoice_Line__Line_Amount_Format.Value</Format>
+                                                      <Format>=Fields!Sales_Line__Line_Amount_Format.Value</Format>
                                                     </Style>
                                                   </TextRun>
                                                 </TextRuns>
@@ -1171,7 +1177,7 @@
                                                 </Style>
                                               </Paragraph>
                                             </Paragraphs>
-                                            <rd:DefaultName>Sales_Invoice_Line__Line_Amount_</rd:DefaultName>
+                                            <rd:DefaultName>Sales_Line__Line_Amount_</rd:DefaultName>
                                             <ZIndex>129</ZIndex>
                                             <Style>
                                               <PaddingLeft>2pt</PaddingLeft>
@@ -1443,7 +1449,7 @@
                                                     <Style>
                                                       <FontSize>9pt</FontSize>
                                                       <FontWeight>Bold</FontWeight>
-                                                      <Format>=Fields!Sales_Invoice_Line__Line_Amount_Format.Value</Format>
+                                                      <Format>=Fields!Sales_Line__Line_Amount_Format.Value</Format>
                                                     </Style>
                                                   </TextRun>
                                                 </TextRuns>
@@ -1565,7 +1571,7 @@
                                                     <Style>
                                                       <FontSize>9pt</FontSize>
                                                       <FontWeight>Bold</FontWeight>
-                                                      <Format>=Fields!Sales_Invoice_Line__Line_Amount_Format.Value</Format>
+                                                      <Format>=Fields!Sales_Line__Line_Amount_Format.Value</Format>
                                                     </Style>
                                                   </TextRun>
                                                 </TextRuns>
@@ -1801,7 +1807,7 @@
                                                     <Style>
                                                       <FontSize>9pt</FontSize>
                                                       <FontWeight>Bold</FontWeight>
-                                                      <Format>=Fields!Sales_Invoice_Line__Line_Amount_Format.Value</Format>
+                                                      <Format>=Fields!Sales_Line__Line_Amount_Format.Value</Format>
                                                     </Style>
                                                   </TextRun>
                                                 </TextRuns>
@@ -1951,7 +1957,7 @@
                                                     <Style>
                                                       <FontSize>9pt</FontSize>
                                                       <FontWeight>Bold</FontWeight>
-                                                      <Format>=Fields!Sales_Invoice_Line__Line_Amount_Format.Value</Format>
+                                                      <Format>=Fields!Sales_Line__Line_Amount_Format.Value</Format>
                                                     </Style>
                                                   </TextRun>
                                                 </TextRuns>
@@ -2072,7 +2078,7 @@
                                                     <Style>
                                                       <FontSize>9pt</FontSize>
                                                       <FontWeight>Bold</FontWeight>
-                                                      <Format>=Fields!Sales_Invoice_Line__Line_Amount_Format.Value</Format>
+                                                      <Format>=Fields!Sales_Line__Line_Amount_Format.Value</Format>
                                                     </Style>
                                                   </TextRun>
                                                 </TextRuns>
@@ -2308,7 +2314,7 @@
                                                     <Style>
                                                       <FontSize>9pt</FontSize>
                                                       <FontWeight>Bold</FontWeight>
-                                                      <Format>=Fields!Sales_Invoice_Line__Amount_Including_VAT_Format.Value</Format>
+                                                      <Format>=Fields!Sales_Line__Amount_Including_VAT_Format.Value</Format>
                                                     </Style>
                                                   </TextRun>
                                                 </TextRuns>
@@ -2319,6 +2325,9 @@
                                             </Paragraphs>
                                             <ZIndex>67</ZIndex>
                                             <Style>
+                                              <Border>
+                                                <Style>None</Style>
+                                              </Border>
                                               <PaddingLeft>2pt</PaddingLeft>
                                               <PaddingRight>2pt</PaddingRight>
                                               <PaddingTop>2pt</PaddingTop>
@@ -2382,6 +2391,7 @@
                                               <PaddingBottom>2pt</PaddingBottom>
                                             </Style>
                                           </Textbox>
+                                          <rd:Selected>true</rd:Selected>
                                         </CellContents>
                                       </TablixCell>
                                       <TablixCell>
@@ -2427,7 +2437,7 @@
                                                     <Value>=Last(Fields!TotalPaymentDiscountOnVAT.Value)</Value>
                                                     <Style>
                                                       <FontSize>9pt</FontSize>
-                                                      <Format>=Fields!Sales_Invoice_Line__Amount_Including_VAT_Format.Value</Format>
+                                                      <Format>=Fields!Sales_Line__Amount_Including_VAT_Format.Value</Format>
                                                     </Style>
                                                   </TextRun>
                                                 </TextRuns>
@@ -2548,7 +2558,7 @@
                                                     <Style>
                                                       <FontSize>9pt</FontSize>
                                                       <FontWeight>Bold</FontWeight>
-                                                      <Format>=Fields!Sales_Invoice_Line__Amount_Including_VAT_Format.Value</Format>
+                                                      <Format>=Fields!Sales_Line__Amount_Including_VAT_Format.Value</Format>
                                                     </Style>
                                                   </TextRun>
                                                 </TextRuns>
@@ -2931,7 +2941,7 @@
                                                     <Value>=Last(Fields!TotalAmount.Value)</Value>
                                                     <Style>
                                                       <FontSize>9pt</FontSize>
-                                                      <Format>=Fields!Sales_Invoice_Line__Line_Amount_Format.Value</Format>
+                                                      <Format>=Fields!Sales_Line__Line_Amount_Format.Value</Format>
                                                     </Style>
                                                   </TextRun>
                                                 </TextRuns>
@@ -2999,27 +3009,27 @@
                                   <TablixMember>
                                     <Group Name="Table_Lines_Group2">
                                       <GroupExpressions>
-                                        <GroupExpression>=Fields!Sales_Invoice_Header_No_.Value</GroupExpression>
+                                        <GroupExpression>=Fields!Sales_Header_No_.Value</GroupExpression>
                                       </GroupExpressions>
                                     </Group>
                                     <TablixMembers>
                                       <TablixMember>
                                         <Group Name="Table_Lines_Group1">
                                           <GroupExpressions>
-                                            <GroupExpression>=Fields!Sales_Invoice_Header_No_.Value</GroupExpression>
+                                            <GroupExpression>=Fields!Sales_Header_No_.Value</GroupExpression>
                                             <GroupExpression>=Fields!OutputNo.Value</GroupExpression>
-                                            <GroupExpression>=Fields!Sales_Invoice_Line_Line_No_.Value</GroupExpression>
+                                            <GroupExpression>=Fields!Sales_Line_Line_No_.Value</GroupExpression>
                                           </GroupExpressions>
                                         </Group>
                                         <SortExpressions>
                                           <SortExpression>
-                                            <Value>=Fields!Sales_Invoice_Header_No_.Value</Value>
+                                            <Value>=Fields!Sales_Header_No_.Value</Value>
                                           </SortExpression>
                                           <SortExpression>
                                             <Value>=Fields!OutputNo.Value</Value>
                                           </SortExpression>
                                           <SortExpression>
-                                            <Value>=Fields!Sales_Invoice_Line_Line_No_.Value</Value>
+                                            <Value>=Fields!Sales_Line_Line_No_.Value</Value>
                                           </SortExpression>
                                         </SortExpressions>
                                         <TablixMembers>
@@ -3043,7 +3053,7 @@
                                             </Group>
                                             <SortExpressions>
                                               <SortExpression>
-                                                <Value>=Fields!Sales_Invoice_Header_No_.Value</Value>
+                                                <Value>=Fields!Sales_Header_No_.Value</Value>
                                               </SortExpression>
                                               <SortExpression>
                                                 <Value>=Fields!OutputNo.Value</Value>
@@ -3082,79 +3092,79 @@
                                       </TablixMember>
                                       <TablixMember>
                                         <Visibility>
-                                          <Hidden>=Sum(Fields!Sales_Invoice_Line__Amount_Including_VAT_.Value) &lt;&gt; Sum(Fields!Sales_Invoice_Line_Amount.Value)</Hidden>
+                                          <Hidden>=Sum(Fields!Sales_Line__Amount_Including_VAT_.Value) &lt;&gt; Sum(Fields!Sales_Line_Amount.Value)</Hidden>
                                         </Visibility>
                                         <KeepWithGroup>Before</KeepWithGroup>
                                         <KeepTogether>true</KeepTogether>
                                       </TablixMember>
                                       <TablixMember>
                                         <Visibility>
-                                          <Hidden>=Sum(Fields!Sales_Invoice_Line__Amount_Including_VAT_.Value) &lt;&gt; Sum(Fields!Sales_Invoice_Line_Amount.Value)</Hidden>
+                                          <Hidden>=Sum(Fields!Sales_Line__Amount_Including_VAT_.Value) &lt;&gt; Sum(Fields!Sales_Line_Amount.Value)</Hidden>
                                         </Visibility>
                                         <KeepWithGroup>Before</KeepWithGroup>
                                         <KeepTogether>true</KeepTogether>
                                       </TablixMember>
                                       <TablixMember>
                                         <Visibility>
-                                          <Hidden>=Not(Fields!Sales_Invoice_Header___Prices_Including_VAT_.Value = false and 
-(Sum(Fields!Sales_Invoice_Line__Amount_Including_VAT_.Value) &lt;&gt; Sum(Fields!Sales_Invoice_Line_Amount.Value)))</Hidden>
+                                          <Hidden>=Not(Fields!Sales_Header___Prices_Including_VAT_.Value = false and 
+(Sum(Fields!Sales_Line__Amount_Including_VAT_.Value) &lt;&gt; Sum(Fields!Sales_Line_Amount.Value)))</Hidden>
                                         </Visibility>
                                         <KeepWithGroup>Before</KeepWithGroup>
                                         <KeepTogether>true</KeepTogether>
                                       </TablixMember>
                                       <TablixMember>
                                         <Visibility>
-                                          <Hidden>=Not(Fields!Sales_Invoice_Header___Prices_Including_VAT_.Value = false and 
-(Sum(Fields!Sales_Invoice_Line__Amount_Including_VAT_.Value) &lt;&gt; Sum(Fields!Sales_Invoice_Line_Amount.Value)))</Hidden>
+                                          <Hidden>=Not(Fields!Sales_Header___Prices_Including_VAT_.Value = false and 
+(Sum(Fields!Sales_Line__Amount_Including_VAT_.Value) &lt;&gt; Sum(Fields!Sales_Line_Amount.Value)))</Hidden>
                                         </Visibility>
                                         <KeepWithGroup>Before</KeepWithGroup>
                                         <KeepTogether>true</KeepTogether>
                                       </TablixMember>
                                       <TablixMember>
                                         <Visibility>
-                                          <Hidden>=Not(Fields!Sales_Invoice_Header___Prices_Including_VAT_.Value = false and 
-(Sum(Fields!Sales_Invoice_Line__Amount_Including_VAT_.Value) &lt;&gt; Sum(Fields!Sales_Invoice_Line_Amount.Value)))</Hidden>
+                                          <Hidden>=Not(Fields!Sales_Header___Prices_Including_VAT_.Value = false and 
+(Sum(Fields!Sales_Line__Amount_Including_VAT_.Value) &lt;&gt; Sum(Fields!Sales_Line_Amount.Value)))</Hidden>
                                         </Visibility>
                                         <KeepWithGroup>Before</KeepWithGroup>
                                         <KeepTogether>true</KeepTogether>
                                       </TablixMember>
                                       <TablixMember>
                                         <Visibility>
-                                          <Hidden>=not((Fields!Sales_Invoice_Header___Prices_Including_VAT_.Value = true) and 
-(Sum(Fields!Sales_Invoice_Line__Amount_Including_VAT_.Value) &lt;&gt; Sum(Fields!Sales_Invoice_Line_Amount.Value)) and
-(Fields!Sales_Invoice_Header___VAT_Base_Discount___.Value &lt;&gt; 0))</Hidden>
+                                          <Hidden>=not((Fields!Sales_Header___Prices_Including_VAT_.Value = true) and 
+(Sum(Fields!Sales_Line__Amount_Including_VAT_.Value) &lt;&gt; Sum(Fields!Sales_Line_Amount.Value)) and
+(Fields!Sales_Header___VAT_Base_Discount___.Value &lt;&gt; 0))</Hidden>
                                         </Visibility>
                                         <KeepWithGroup>Before</KeepWithGroup>
                                         <KeepTogether>true</KeepTogether>
                                       </TablixMember>
                                       <TablixMember>
                                         <Visibility>
-                                          <Hidden>=Not(Fields!Sales_Invoice_Header___Prices_Including_VAT_.Value = true and 
-(Sum(Fields!Sales_Invoice_Line__Amount_Including_VAT_.Value) &lt;&gt; Sum(Fields!Sales_Invoice_Line_Amount.Value)))</Hidden>
+                                          <Hidden>=Not(Fields!Sales_Header___Prices_Including_VAT_.Value = true and 
+(Sum(Fields!Sales_Line__Amount_Including_VAT_.Value) &lt;&gt; Sum(Fields!Sales_Line_Amount.Value)))</Hidden>
                                         </Visibility>
                                         <KeepWithGroup>Before</KeepWithGroup>
                                         <KeepTogether>true</KeepTogether>
                                       </TablixMember>
                                       <TablixMember>
                                         <Visibility>
-                                          <Hidden>=Not(Fields!Sales_Invoice_Header___Prices_Including_VAT_.Value = true and 
-(Sum(Fields!Sales_Invoice_Line__Amount_Including_VAT_.Value) &lt;&gt; Sum(Fields!Sales_Invoice_Line_Amount.Value)))</Hidden>
+                                          <Hidden>=Not(Fields!Sales_Header___Prices_Including_VAT_.Value = true and 
+(Sum(Fields!Sales_Line__Amount_Including_VAT_.Value) &lt;&gt; Sum(Fields!Sales_Line_Amount.Value)))</Hidden>
                                         </Visibility>
                                         <KeepWithGroup>Before</KeepWithGroup>
                                         <KeepTogether>true</KeepTogether>
                                       </TablixMember>
                                       <TablixMember>
                                         <Visibility>
-                                          <Hidden>=Not(Fields!Sales_Invoice_Header___Prices_Including_VAT_.Value = true and 
-(Sum(Fields!Sales_Invoice_Line__Amount_Including_VAT_.Value) &lt;&gt; Sum(Fields!Sales_Invoice_Line_Amount.Value)))</Hidden>
+                                          <Hidden>=Not(Fields!Sales_Header___Prices_Including_VAT_.Value = true and 
+(Sum(Fields!Sales_Line__Amount_Including_VAT_.Value) &lt;&gt; Sum(Fields!Sales_Line_Amount.Value)))</Hidden>
                                         </Visibility>
                                         <KeepWithGroup>Before</KeepWithGroup>
                                         <KeepTogether>true</KeepTogether>
                                       </TablixMember>
                                       <TablixMember>
                                         <Visibility>
-                                          <Hidden>=Not(Fields!Sales_Invoice_Header___Prices_Including_VAT_.Value = true and 
-(Sum(Fields!Sales_Invoice_Line__Amount_Including_VAT_.Value) &lt;&gt; Sum(Fields!Sales_Invoice_Line_Amount.Value)))</Hidden>
+                                          <Hidden>=Not(Fields!Sales_Header___Prices_Including_VAT_.Value = true and 
+(Sum(Fields!Sales_Line__Amount_Including_VAT_.Value) &lt;&gt; Sum(Fields!Sales_Line_Amount.Value)))</Hidden>
                                         </Visibility>
                                         <KeepWithGroup>Before</KeepWithGroup>
                                         <KeepTogether>true</KeepTogether>
@@ -3166,7 +3176,7 @@
                               <DataSetName>DataSet_Result</DataSetName>
                               <Filters>
                                 <Filter>
-                                  <FilterExpression>=Cstr(Fields!Sales_Invoice_Line_Line_No_.Value)</FilterExpression>
+                                  <FilterExpression>=Cstr(Fields!Sales_Line_Line_No_.Value)</FilterExpression>
                                   <Operator>GreaterThan</Operator>
                                   <FilterValues>
                                     <FilterValue>""</FilterValue>
@@ -3360,24 +3370,24 @@ Fields!CompanyInfo__Stock_Capital.Value
                                               </Paragraph>
                                             </Paragraphs>
                                             <Visibility>
-                                              <Hidden>=Code.setdata(Fields!Sales_Invoice_Header___Bill_to_Customer_No__Caption.Value + Chr(177) +
-Fields!Sales_Invoice_Header___Bill_to_Customer_No__.Value + Chr(177) + 
+                                              <Hidden>=Code.setdata(Fields!Sales_Header___Bill_to_Customer_No__Caption.Value + Chr(177) +
+Fields!Sales_Header___Bill_to_Customer_No__.Value + Chr(177) + 
 Fields!VATNoText.Value + Chr(177) + 
-Fields!Sales_Invoice_Header___VAT_Registration_No__.Value + Chr(177) + 
+Fields!Sales_Header___VAT_Registration_No__.Value + Chr(177) + 
 Fields!ReferenceText.Value + Chr(177) + 
-Fields!Sales_Invoice_Header___Your_Reference_.Value + Chr(177) + 
+Fields!Sales_Header___Your_Reference_.Value + Chr(177) + 
 Fields!Invoice_No_Caption.Value + Chr(177) + 
-Fields!Sales_Invoice_Header___No__.Value + Chr(177) + 
+Fields!Sales_Header___No__.Value + Chr(177) + 
 Fields!OrderNoText.Value + Chr(177) + 
-Fields!Sales_Invoice_Header___Order_No__.Value + Chr(177) + 
-Fields!Sales_Invoice_Header___Posting_Date_Caption.Value + Chr(177) + 
-Fields!Sales_Invoice_Header___Posting_Date_.Value + Chr(177) + 
-Fields!Sales_Invoice_Header___Due_Date_Caption.Value + Chr(177) + 
-Fields!Sales_Invoice_Header___Due_Date_.Value + Chr(177) + 
-Fields!Sales_Invoice_Header___Prices_Including_VAT_Caption.Value + Chr(177) + 
+ Chr(177) + 
+Fields!Sales_Header___Posting_Date_Caption.Value + Chr(177) + 
+Fields!Sales_Header___Posting_Date_.Value + Chr(177) + 
+Fields!Sales_Header___Due_Date_Caption.Value + Chr(177) + 
+Fields!Sales_Header___Due_Date_.Value + Chr(177) + 
+Fields!Sales_Header___Prices_Including_VAT_Caption.Value + Chr(177) + 
 Cstr(Fields!PricesInclVAT_YesNo.Value) + Chr(177) + 
-First(Fields!FORMAT__Sales_Invoice_Header___Document_Date__0_4_.Value) + Chr(177) + 
-First(Fields!STRSUBSTNO_DocumentCaption_CopyText_.Value) + Chr(177) + 
+First(Fields!FORMAT__Sales_Header___Document_Date__0_4_.Value) + Chr(177) + 
+ Chr(177) + 
 Fields!SalesPersonText.Value + Chr(177) + 
 Fields!SalesPurchPerson_Name.Value + Chr(177) + 
 Fields!PageCaption.Value + Chr(177) + 
@@ -3386,7 +3396,7 @@ Fields!SALES_HEADER_Currency_VALUE.Value + Chr(177) +
 Fields!SALES_HEADER_JOB_CODE_LABEL.Value + Chr(177) + 
 Fields!SALES_HEADER_JOB_CODE_VALUE.Value
  + Chr(177) + First(Fields!Mention001.Value)
- + Chr(177) + First(Fields!Mention002.Value) + Chr(177) + First(Fields!SALES_HEADER_Order_No.Value),4)</Hidden>
+ + Chr(177) + First(Fields!Mention002.Value) + Chr(177) ,4)</Hidden>
                                             </Visibility>
                                             <Style>
                                               <Border>
@@ -3559,14 +3569,14 @@ Fields!SALES_HEADER_JOB_CODE_VALUE.Value
                               <ZIndex>4</ZIndex>
                               <Style />
                             </Tablix>
-                            <Textbox Name="Sales_Invoice_Header_PrePmtOrderNo">
+                            <Textbox Name="Sales_Header_PrePmtOrderNo">
                               <CanGrow>true</CanGrow>
                               <KeepTogether>true</KeepTogether>
                               <Paragraphs>
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value>=First(Fields!Sales_Invoice_Header_PrePmtOrderNo.Value)</Value>
+                                      <Value />
                                       <Style>
                                         <Color>Red</Color>
                                       </Style>
@@ -3575,7 +3585,7 @@ Fields!SALES_HEADER_JOB_CODE_VALUE.Value
                                   <Style />
                                 </Paragraph>
                               </Paragraphs>
-                              <rd:DefaultName>Sales_Invoice_Header_PrePmtOrderNo</rd:DefaultName>
+                              <rd:DefaultName>Sales_Header_PrePmtOrderNo</rd:DefaultName>
                               <Left>9.20635cm</Left>
                               <Height>0.31746cm</Height>
                               <Width>2.53968cm</Width>
@@ -3584,6 +3594,9 @@ Fields!SALES_HEADER_JOB_CODE_VALUE.Value
                                 <Hidden>true</Hidden>
                               </Visibility>
                               <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
                                 <PaddingLeft>2pt</PaddingLeft>
                                 <PaddingRight>2pt</PaddingRight>
                                 <PaddingTop>2pt</PaddingTop>
@@ -4486,7 +4499,7 @@ Fields!SALES_HEADER_JOB_CODE_VALUE.Value
                 <TablixMember>
                   <Group Name="list1_Details_Group">
                     <GroupExpressions>
-                      <GroupExpression>=Fields!Sales_Invoice_Header_No_.Value</GroupExpression>
+                      <GroupExpression>=Fields!Sales_Header_No_.Value</GroupExpression>
                       <GroupExpression>=Fields!OutputNo.Value</GroupExpression>
                     </GroupExpressions>
                     <PageBreak>
@@ -4495,7 +4508,7 @@ Fields!SALES_HEADER_JOB_CODE_VALUE.Value
                   </Group>
                   <SortExpressions>
                     <SortExpression>
-                      <Value>=Fields!Sales_Invoice_Header_No_.Value</Value>
+                      <Value>=Fields!Sales_Header_No_.Value</Value>
                     </SortExpression>
                     <SortExpression>
                       <Value>=Fields!OutputNo.Value</Value>
@@ -4762,7 +4775,7 @@ Fields!SALES_HEADER_JOB_CODE_VALUE.Value
               </ReportItems>
               <DataElementOutput>ContentsOnly</DataElementOutput>
               <Top>7.93639cm</Top>
-              <Height>1.64338cm</Height>
+              <Height>2.11092cm</Height>
               <Width>7.93651cm</Width>
               <ZIndex>1</ZIndex>
               <Style>
@@ -4808,7 +4821,7 @@ Fields!SALES_HEADER_JOB_CODE_VALUE.Value
               <Width>6.3cm</Width>
               <ZIndex>3</ZIndex>
               <Visibility>
-                <Hidden>=iif(reportitems!Sales_Invoice_Header_PrePmtOrderNo.Value="",true,false)</Hidden>
+                <Hidden>=iif(reportitems!Sales_Header_PrePmtOrderNo.Value="",true,false)</Hidden>
               </Visibility>
               <DataElementOutput>NoOutput</DataElementOutput>
               <Style>
@@ -5333,7 +5346,6 @@ Fields!SALES_HEADER_JOB_CODE_VALUE.Value
                   <Style />
                 </Paragraph>
               </Paragraphs>
-              <Top>0cm</Top>
               <Height>0.42299cm</Height>
               <Width>19.04762cm</Width>
               <ZIndex>3</ZIndex>
@@ -5563,8 +5575,8 @@ End Function
   <DataSets>
     <DataSet Name="DataSet_Result">
       <Fields>
-        <Field Name="Sales_Invoice_Header_No_">
-          <DataField>Sales_Invoice_Header_No_</DataField>
+        <Field Name="Sales_Header_No_">
+          <DataField>Sales_Header_No_</DataField>
         </Field>
         <Field Name="CompanyInfo2_Picture">
           <DataField>CompanyInfo2_Picture</DataField>
@@ -5574,9 +5586,6 @@ End Function
         </Field>
         <Field Name="CompanyInfo_Picture">
           <DataField>CompanyInfo_Picture</DataField>
-        </Field>
-        <Field Name="STRSUBSTNO_DocumentCaption_CopyText_">
-          <DataField>STRSUBSTNO_DocumentCaption_CopyText_</DataField>
         </Field>
         <Field Name="CustAddr_1_">
           <DataField>CustAddr_1_</DataField>
@@ -5626,20 +5635,20 @@ End Function
         <Field Name="CompanyInfo__Bank_Account_No__">
           <DataField>CompanyInfo__Bank_Account_No__</DataField>
         </Field>
-        <Field Name="Sales_Invoice_Header___Bill_to_Customer_No__">
-          <DataField>Sales_Invoice_Header___Bill_to_Customer_No__</DataField>
+        <Field Name="Sales_Header___Bill_to_Customer_No__">
+          <DataField>Sales_Header___Bill_to_Customer_No__</DataField>
         </Field>
-        <Field Name="Sales_Invoice_Header___Posting_Date_">
-          <DataField>Sales_Invoice_Header___Posting_Date_</DataField>
+        <Field Name="Sales_Header___Posting_Date_">
+          <DataField>Sales_Header___Posting_Date_</DataField>
         </Field>
         <Field Name="VATNoText">
           <DataField>VATNoText</DataField>
         </Field>
-        <Field Name="Sales_Invoice_Header___VAT_Registration_No__">
-          <DataField>Sales_Invoice_Header___VAT_Registration_No__</DataField>
+        <Field Name="Sales_Header___VAT_Registration_No__">
+          <DataField>Sales_Header___VAT_Registration_No__</DataField>
         </Field>
-        <Field Name="Sales_Invoice_Header___Due_Date_">
-          <DataField>Sales_Invoice_Header___Due_Date_</DataField>
+        <Field Name="Sales_Header___Due_Date_">
+          <DataField>Sales_Header___Due_Date_</DataField>
         </Field>
         <Field Name="SalesPersonText">
           <DataField>SalesPersonText</DataField>
@@ -5647,20 +5656,17 @@ End Function
         <Field Name="SalesPurchPerson_Name">
           <DataField>SalesPurchPerson_Name</DataField>
         </Field>
-        <Field Name="Sales_Invoice_Header___No__">
-          <DataField>Sales_Invoice_Header___No__</DataField>
+        <Field Name="Sales_Header___No__">
+          <DataField>Sales_Header___No__</DataField>
         </Field>
         <Field Name="ReferenceText">
           <DataField>ReferenceText</DataField>
         </Field>
-        <Field Name="Sales_Invoice_Header___Your_Reference_">
-          <DataField>Sales_Invoice_Header___Your_Reference_</DataField>
+        <Field Name="Sales_Header___Your_Reference_">
+          <DataField>Sales_Header___Your_Reference_</DataField>
         </Field>
         <Field Name="OrderNoText">
           <DataField>OrderNoText</DataField>
-        </Field>
-        <Field Name="Sales_Invoice_Header___Order_No__">
-          <DataField>Sales_Invoice_Header___Order_No__</DataField>
         </Field>
         <Field Name="CustAddr_7_">
           <DataField>CustAddr_7_</DataField>
@@ -5683,11 +5689,11 @@ End Function
         <Field Name="BCS_CompanyInfoCounty">
           <DataField>BCS_CompanyInfoCounty</DataField>
         </Field>
-        <Field Name="FORMAT__Sales_Invoice_Header___Document_Date__0_4_">
-          <DataField>FORMAT__Sales_Invoice_Header___Document_Date__0_4_</DataField>
+        <Field Name="FORMAT__Sales_Header___Document_Date__0_4_">
+          <DataField>FORMAT__Sales_Header___Document_Date__0_4_</DataField>
         </Field>
-        <Field Name="Sales_Invoice_Header___Prices_Including_VAT_">
-          <DataField>Sales_Invoice_Header___Prices_Including_VAT_</DataField>
+        <Field Name="Sales_Header___Prices_Including_VAT_">
+          <DataField>Sales_Header___Prices_Including_VAT_</DataField>
         </Field>
         <Field Name="OutputNo">
           <DataField>OutputNo</DataField>
@@ -5718,9 +5724,6 @@ End Function
         </Field>
         <Field Name="SALES_HEADER_JOB_CODE_VALUE">
           <DataField>SALES_HEADER_JOB_CODE_VALUE</DataField>
-        </Field>
-        <Field Name="Sales_Invoice_Header_PrePmtOrderNo">
-          <DataField>Sales_Invoice_Header_PrePmtOrderNo</DataField>
         </Field>
         <Field Name="BankAccRIBKey">
           <DataField>BankAccRIBKey</DataField>
@@ -5773,20 +5776,20 @@ End Function
         <Field Name="CompanyInfo__Bank_Account_No__Caption">
           <DataField>CompanyInfo__Bank_Account_No__Caption</DataField>
         </Field>
-        <Field Name="Sales_Invoice_Header___Bill_to_Customer_No__Caption">
-          <DataField>Sales_Invoice_Header___Bill_to_Customer_No__Caption</DataField>
+        <Field Name="Sales_Header___Bill_to_Customer_No__Caption">
+          <DataField>Sales_Header___Bill_to_Customer_No__Caption</DataField>
         </Field>
-        <Field Name="Sales_Invoice_Header___Due_Date_Caption">
-          <DataField>Sales_Invoice_Header___Due_Date_Caption</DataField>
+        <Field Name="Sales_Header___Due_Date_Caption">
+          <DataField>Sales_Header___Due_Date_Caption</DataField>
         </Field>
         <Field Name="Invoice_No_Caption_OLD">
           <DataField>Invoice_No_Caption_OLD</DataField>
         </Field>
-        <Field Name="Sales_Invoice_Header___Posting_Date_Caption">
-          <DataField>Sales_Invoice_Header___Posting_Date_Caption</DataField>
+        <Field Name="Sales_Header___Posting_Date_Caption">
+          <DataField>Sales_Header___Posting_Date_Caption</DataField>
         </Field>
-        <Field Name="Sales_Invoice_Header___Prices_Including_VAT_Caption">
-          <DataField>Sales_Invoice_Header___Prices_Including_VAT_Caption</DataField>
+        <Field Name="Sales_Header___Prices_Including_VAT_Caption">
+          <DataField>Sales_Header___Prices_Including_VAT_Caption</DataField>
         </Field>
         <Field Name="Cust__VAT_Registration_No__Caption">
           <DataField>Cust__VAT_Registration_No__Caption</DataField>
@@ -5842,50 +5845,50 @@ End Function
         <Field Name="PageLoop_Number">
           <DataField>PageLoop_Number</DataField>
         </Field>
-        <Field Name="Sales_Invoice_Line__Line_Amount_">
-          <DataField>Sales_Invoice_Line__Line_Amount_</DataField>
+        <Field Name="Sales_Line__Line_Amount_">
+          <DataField>Sales_Line__Line_Amount_</DataField>
         </Field>
-        <Field Name="Sales_Invoice_Line__Line_Amount_Format">
-          <DataField>Sales_Invoice_Line__Line_Amount_Format</DataField>
+        <Field Name="Sales_Line__Line_Amount_Format">
+          <DataField>Sales_Line__Line_Amount_Format</DataField>
         </Field>
-        <Field Name="Sales_Invoice_Line_Description">
-          <DataField>Sales_Invoice_Line_Description</DataField>
+        <Field Name="Sales_Line_Description">
+          <DataField>Sales_Line_Description</DataField>
         </Field>
-        <Field Name="Sales_Invoice_Line__No__">
-          <DataField>Sales_Invoice_Line__No__</DataField>
+        <Field Name="Sales_Line__No__">
+          <DataField>Sales_Line__No__</DataField>
         </Field>
-        <Field Name="Sales_Invoice_Line_Description_Control65">
-          <DataField>Sales_Invoice_Line_Description_Control65</DataField>
+        <Field Name="Sales_Line_Description_Control65">
+          <DataField>Sales_Line_Description_Control65</DataField>
         </Field>
-        <Field Name="Sales_Invoice_Line_Quantity">
-          <DataField>Sales_Invoice_Line_Quantity</DataField>
+        <Field Name="Sales_Line_Quantity">
+          <DataField>Sales_Line_Quantity</DataField>
         </Field>
-        <Field Name="Sales_Invoice_Line_QuantityFormat">
-          <DataField>Sales_Invoice_Line_QuantityFormat</DataField>
+        <Field Name="Sales_Line_QuantityFormat">
+          <DataField>Sales_Line_QuantityFormat</DataField>
         </Field>
-        <Field Name="Sales_Invoice_Line__Unit_of_Measure_">
-          <DataField>Sales_Invoice_Line__Unit_of_Measure_</DataField>
+        <Field Name="Sales_Line__Unit_of_Measure_">
+          <DataField>Sales_Line__Unit_of_Measure_</DataField>
         </Field>
-        <Field Name="Sales_Invoice_Line__Unit_Price_">
-          <DataField>Sales_Invoice_Line__Unit_Price_</DataField>
+        <Field Name="Sales_Line__Unit_Price_">
+          <DataField>Sales_Line__Unit_Price_</DataField>
         </Field>
-        <Field Name="Sales_Invoice_Line__Unit_Price_Format">
-          <DataField>Sales_Invoice_Line__Unit_Price_Format</DataField>
+        <Field Name="Sales_Line__Unit_Price_Format">
+          <DataField>Sales_Line__Unit_Price_Format</DataField>
         </Field>
-        <Field Name="Sales_Invoice_Line__Line_Discount___">
-          <DataField>Sales_Invoice_Line__Line_Discount___</DataField>
+        <Field Name="Sales_Line__Line_Discount___">
+          <DataField>Sales_Line__Line_Discount___</DataField>
         </Field>
-        <Field Name="Sales_Invoice_Line__Line_Discount___Format">
-          <DataField>Sales_Invoice_Line__Line_Discount___Format</DataField>
+        <Field Name="Sales_Line__Line_Discount___Format">
+          <DataField>Sales_Line__Line_Discount___Format</DataField>
         </Field>
-        <Field Name="Sales_Invoice_Line__Line_Amount__Control70">
-          <DataField>Sales_Invoice_Line__Line_Amount__Control70</DataField>
+        <Field Name="Sales_Line__Line_Amount__Control70">
+          <DataField>Sales_Line__Line_Amount__Control70</DataField>
         </Field>
-        <Field Name="Sales_Invoice_Line__Line_Amount__Control70Format">
-          <DataField>Sales_Invoice_Line__Line_Amount__Control70Format</DataField>
+        <Field Name="Sales_Line__Line_Amount__Control70Format">
+          <DataField>Sales_Line__Line_Amount__Control70Format</DataField>
         </Field>
-        <Field Name="Sales_Invoice_Line__VAT_Identifier_">
-          <DataField>Sales_Invoice_Line__VAT_Identifier_</DataField>
+        <Field Name="Sales_Line__VAT_Identifier_">
+          <DataField>Sales_Line__VAT_Identifier_</DataField>
         </Field>
         <Field Name="PostedShipmentDate">
           <DataField>PostedShipmentDate</DataField>
@@ -5893,11 +5896,11 @@ End Function
         <Field Name="SalesLineType">
           <DataField>SalesLineType</DataField>
         </Field>
-        <Field Name="Sales_Invoice_Line__Line_Amount__Control86">
-          <DataField>Sales_Invoice_Line__Line_Amount__Control86</DataField>
+        <Field Name="Sales_Line__Line_Amount__Control86">
+          <DataField>Sales_Line__Line_Amount__Control86</DataField>
         </Field>
-        <Field Name="Sales_Invoice_Line__Line_Amount__Control86Format">
-          <DataField>Sales_Invoice_Line__Line_Amount__Control86Format</DataField>
+        <Field Name="Sales_Line__Line_Amount__Control86Format">
+          <DataField>Sales_Line__Line_Amount__Control86Format</DataField>
         </Field>
         <Field Name="GetTotalInvDiscAmount">
           <DataField>GetTotalInvDiscAmount</DataField>
@@ -5929,11 +5932,11 @@ End Function
         <Field Name="Inv__Discount_Amount_Format">
           <DataField>Inv__Discount_Amount_Format</DataField>
         </Field>
-        <Field Name="Sales_Invoice_Line__Line_Amount__Control99">
-          <DataField>Sales_Invoice_Line__Line_Amount__Control99</DataField>
+        <Field Name="Sales_Line__Line_Amount__Control99">
+          <DataField>Sales_Line__Line_Amount__Control99</DataField>
         </Field>
-        <Field Name="Sales_Invoice_Line__Line_Amount__Control99Format">
-          <DataField>Sales_Invoice_Line__Line_Amount__Control99Format</DataField>
+        <Field Name="Sales_Line__Line_Amount__Control99Format">
+          <DataField>Sales_Line__Line_Amount__Control99Format</DataField>
         </Field>
         <Field Name="TotalSubTotal">
           <DataField>TotalSubTotal</DataField>
@@ -5950,11 +5953,11 @@ End Function
         <Field Name="TotalText">
           <DataField>TotalText</DataField>
         </Field>
-        <Field Name="Sales_Invoice_Line_Amount">
-          <DataField>Sales_Invoice_Line_Amount</DataField>
+        <Field Name="Sales_Line_Amount">
+          <DataField>Sales_Line_Amount</DataField>
         </Field>
-        <Field Name="Sales_Invoice_Line_AmountFormat">
-          <DataField>Sales_Invoice_Line_AmountFormat</DataField>
+        <Field Name="Sales_Line_AmountFormat">
+          <DataField>Sales_Line_AmountFormat</DataField>
         </Field>
         <Field Name="TotalAmount">
           <DataField>TotalAmount</DataField>
@@ -5962,11 +5965,11 @@ End Function
         <Field Name="TotalAmountFormat">
           <DataField>TotalAmountFormat</DataField>
         </Field>
-        <Field Name="Sales_Invoice_Line_Amount_Control90">
-          <DataField>Sales_Invoice_Line_Amount_Control90</DataField>
+        <Field Name="Sales_Line_Amount_Control90">
+          <DataField>Sales_Line_Amount_Control90</DataField>
         </Field>
-        <Field Name="Sales_Invoice_Line_Amount_Control90Format">
-          <DataField>Sales_Invoice_Line_Amount_Control90Format</DataField>
+        <Field Name="Sales_Line_Amount_Control90Format">
+          <DataField>Sales_Line_Amount_Control90Format</DataField>
         </Field>
         <Field Name="Amount_Including_VAT____Amount">
           <DataField>Amount_Including_VAT____Amount</DataField>
@@ -5974,11 +5977,11 @@ End Function
         <Field Name="Amount_Including_VAT____AmountFormat">
           <DataField>Amount_Including_VAT____AmountFormat</DataField>
         </Field>
-        <Field Name="Sales_Invoice_Line__Amount_Including_VAT_">
-          <DataField>Sales_Invoice_Line__Amount_Including_VAT_</DataField>
+        <Field Name="Sales_Line__Amount_Including_VAT_">
+          <DataField>Sales_Line__Amount_Including_VAT_</DataField>
         </Field>
-        <Field Name="Sales_Invoice_Line__Amount_Including_VAT_Format">
-          <DataField>Sales_Invoice_Line__Amount_Including_VAT_Format</DataField>
+        <Field Name="Sales_Line__Amount_Including_VAT_Format">
+          <DataField>Sales_Line__Amount_Including_VAT_Format</DataField>
         </Field>
         <Field Name="VATAmountLine_VATAmountText">
           <DataField>VATAmountLine_VATAmountText</DataField>
@@ -6007,11 +6010,11 @@ End Function
         <Field Name="Line_Amount_____Inv__Discount_Amount_____Amount_Including_VAT__Format">
           <DataField>Line_Amount_____Inv__Discount_Amount_____Amount_Including_VAT__Format</DataField>
         </Field>
-        <Field Name="Sales_Invoice_Header___VAT_Base_Discount___">
-          <DataField>Sales_Invoice_Header___VAT_Base_Discount___</DataField>
+        <Field Name="Sales_Header___VAT_Base_Discount___">
+          <DataField>Sales_Header___VAT_Base_Discount___</DataField>
         </Field>
-        <Field Name="Sales_Invoice_Header___VAT_Base_Discount___Format">
-          <DataField>Sales_Invoice_Header___VAT_Base_Discount___Format</DataField>
+        <Field Name="Sales_Header___VAT_Base_Discount___Format">
+          <DataField>Sales_Header___VAT_Base_Discount___Format</DataField>
         </Field>
         <Field Name="TotalPaymentDiscountOnVAT">
           <DataField>TotalPaymentDiscountOnVAT</DataField>
@@ -6031,44 +6034,44 @@ End Function
         <Field Name="Amount_Including_VAT____Amount_Control62Format">
           <DataField>Amount_Including_VAT____Amount_Control62Format</DataField>
         </Field>
-        <Field Name="Sales_Invoice_Line_Amount_Control63">
-          <DataField>Sales_Invoice_Line_Amount_Control63</DataField>
+        <Field Name="Sales_Line_Amount_Control63">
+          <DataField>Sales_Line_Amount_Control63</DataField>
         </Field>
-        <Field Name="Sales_Invoice_Line_Amount_Control63Format">
-          <DataField>Sales_Invoice_Line_Amount_Control63Format</DataField>
+        <Field Name="Sales_Line_Amount_Control63Format">
+          <DataField>Sales_Line_Amount_Control63Format</DataField>
         </Field>
-        <Field Name="Sales_Invoice_Line__Amount_Including_VAT__Control71">
-          <DataField>Sales_Invoice_Line__Amount_Including_VAT__Control71</DataField>
+        <Field Name="Sales_Line__Amount_Including_VAT__Control71">
+          <DataField>Sales_Line__Amount_Including_VAT__Control71</DataField>
         </Field>
-        <Field Name="Sales_Invoice_Line__Amount_Including_VAT__Control71Format">
-          <DataField>Sales_Invoice_Line__Amount_Including_VAT__Control71Format</DataField>
+        <Field Name="Sales_Line__Amount_Including_VAT__Control71Format">
+          <DataField>Sales_Line__Amount_Including_VAT__Control71Format</DataField>
         </Field>
         <Field Name="TotalExclVATText_Control72">
           <DataField>TotalExclVATText_Control72</DataField>
         </Field>
-        <Field Name="Sales_Invoice_Line__No__Caption">
-          <DataField>Sales_Invoice_Line__No__Caption</DataField>
+        <Field Name="Sales_Line__No__Caption">
+          <DataField>Sales_Line__No__Caption</DataField>
         </Field>
-        <Field Name="Sales_Invoice_Line_Description_Control65Caption">
-          <DataField>Sales_Invoice_Line_Description_Control65Caption</DataField>
+        <Field Name="Sales_Line_Description_Control65Caption">
+          <DataField>Sales_Line_Description_Control65Caption</DataField>
         </Field>
-        <Field Name="Sales_Invoice_Line_QuantityCaption">
-          <DataField>Sales_Invoice_Line_QuantityCaption</DataField>
+        <Field Name="Sales_Line_QuantityCaption">
+          <DataField>Sales_Line_QuantityCaption</DataField>
         </Field>
-        <Field Name="Sales_Invoice_Line__Unit_of_Measure_Caption">
-          <DataField>Sales_Invoice_Line__Unit_of_Measure_Caption</DataField>
+        <Field Name="Sales_Line__Unit_of_Measure_Caption">
+          <DataField>Sales_Line__Unit_of_Measure_Caption</DataField>
         </Field>
         <Field Name="Unit_PriceCaption">
           <DataField>Unit_PriceCaption</DataField>
         </Field>
-        <Field Name="Sales_Invoice_Line__Line_Discount___Caption">
-          <DataField>Sales_Invoice_Line__Line_Discount___Caption</DataField>
+        <Field Name="Sales_Line__Line_Discount___Caption">
+          <DataField>Sales_Line__Line_Discount___Caption</DataField>
         </Field>
         <Field Name="AmountCaption">
           <DataField>AmountCaption</DataField>
         </Field>
-        <Field Name="Sales_Invoice_Line__VAT_Identifier_Caption">
-          <DataField>Sales_Invoice_Line__VAT_Identifier_Caption</DataField>
+        <Field Name="Sales_Line__VAT_Identifier_Caption">
+          <DataField>Sales_Line__VAT_Identifier_Caption</DataField>
         </Field>
         <Field Name="PostedShipmentDateCaption">
           <DataField>PostedShipmentDateCaption</DataField>
@@ -6088,11 +6091,11 @@ End Function
         <Field Name="Line_Amount_____Inv__Discount_Amount_____Amount_Including_VAT__Caption">
           <DataField>Line_Amount_____Inv__Discount_Amount_____Amount_Including_VAT__Caption</DataField>
         </Field>
-        <Field Name="Sales_Invoice_Line_Document_No_">
-          <DataField>Sales_Invoice_Line_Document_No_</DataField>
+        <Field Name="Sales_Line_Document_No_">
+          <DataField>Sales_Line_Document_No_</DataField>
         </Field>
-        <Field Name="Sales_Invoice_Line_Line_No_">
-          <DataField>Sales_Invoice_Line_Line_No_</DataField>
+        <Field Name="Sales_Line_Line_No_">
+          <DataField>Sales_Line_Line_No_</DataField>
         </Field>
         <Field Name="VATAmountLine__VAT_Base_">
           <DataField>VATAmountLine__VAT_Base_</DataField>

@@ -858,6 +858,416 @@
           <note from="Developer" annotates="general" priority="2">FRA="Afficher info. internes"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Sales - Invoice ENDEMOL STD - Control ShowInternalInfo - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Report 256323761 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>BC6 Sales - Invoice Test</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Ventes : Facture Test"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 3285233284" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Prix HT"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType AmountCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 3262880599" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Agency Code</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Code guichet"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType BankAccRIBAgencyCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 3936785112" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank Account No.</source>
+          <note from="Developer" annotates="general" priority="2">FRA="N° compte bancaire"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType BankAccRIBBankAccNoCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 3332175233" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Branch Code</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Code banque"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType BankAccRIBBranchNoCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 1255740810" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IBAN</source>
+          <note from="Developer" annotates="general" priority="2">FRA="IBAN"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType BankAccRIBIBANCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 2829018751" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Key</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Clé"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType BankAccRIBKeyCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 1017509767" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Nom"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType BankAccRIBNameCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 677830903" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SWIFT Code</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Code SWIFT"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType BankAccRIBSWIFTCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 3100138224" size-unit="char" translate="yes" xml:space="preserve">
+          <source>APE Code </source>
+          <note from="Developer" annotates="general" priority="2">FRA="Code APE "</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType CompanyInfo__APE_Code_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 2865430237" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account No.</source>
+          <note from="Developer" annotates="general" priority="2">FRA="N° compte"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType CompanyInfo__Bank_Account_No__CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 1365031592" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Banque"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType CompanyInfo__Bank_Name_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 2578157976" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fax No.</source>
+          <note from="Developer" annotates="general" priority="2">FRA="N° télécopie"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType CompanyInfo__Fax_No__CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 427601924" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Giro No.</source>
+          <note from="Developer" annotates="general" priority="2">FRA="N° CCP"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType CompanyInfo__Giro_No__CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 251697404" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Label1180050005</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType CompanyInfo__Legal_Form_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 536679201" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Phone No.</source>
+          <note from="Developer" annotates="general" priority="2">FRA="N° téléphone"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType CompanyInfo__Phone_No__CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 1985143894" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SIRET N° </source>
+          <note from="Developer" annotates="general" priority="2">FRA="N° SIRET "</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType CompanyInfo__Registration_No__CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 2605168697" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Social Capital </source>
+          <note from="Developer" annotates="general" priority="2">FRA="Capital social "</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType CompanyInfo__Stock_Capital_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 1029183126" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Commercial Register </source>
+          <note from="Developer" annotates="general" priority="2">FRA="Registre commerciale "</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType CompanyInfo__Trade_Register_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 91401898" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Reg. No.</source>
+          <note from="Developer" annotates="general" priority="2">FRA="N° id. intracomm."</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType CompanyInfo__VAT_Registration_No__CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 4036938315" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Continued</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Report"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType ContinuedCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 4233317840" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Continued</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Report"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType ContinuedCaption_Control85Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 2077897386" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Reg. No.</source>
+          <note from="Developer" annotates="general" priority="2">FRA="N° id. intracomm."</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType Cust__VAT_Registration_No__CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 2201161008" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice No.</source>
+          <note from="Developer" annotates="general" priority="2">FRA="N° facture"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType Invoice_No_Caption_OLDLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 3618136416" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inv. Discount Amount</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Montant remise facture"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType Inv__Discount_Amount_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 1706666140" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Discount on VAT</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Escompte sur TVA"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType Line_Amount_____Inv__Discount_Amount_____Amount_Including_VAT__CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 3000995073" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType MENTION_TVA_SUR_ENCAISSEMENTLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 4258267806" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Terms :</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Conditions de paiement :"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType PaymentTerms_DescriptionCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 4254529445" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment method :</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Mode de paiement :"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType PmtMethod_DescriptionCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 3543880195" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Shipment Date</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Date expédition validée"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType PostedShipmentDateCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 1411880461" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Currency code</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Code devise"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType SALES_HEADER_Currency_LABELLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 1331979195" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job code</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Code projet"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType SALES_HEADER_JOB_CODE_LABELLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 930835447" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Order No.</source>
+          <note from="Developer" annotates="general" priority="2">FRA="N° commande"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType SALES_HEADER_Order_NoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 2557156069" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Due Date :</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Date d'échéance :"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType Sales_Header___Due_Date_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 1035153705" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Date comptabilisation"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType Sales_Header___Posting_Date_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 3636390937" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Description"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType Sales_Line_Description_Control65CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 524747426" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Disc. %</source>
+          <note from="Developer" annotates="general" priority="2">FRA="% remise"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType Sales_Line__Line_Discount___CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 3740093710" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipment Method :</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Conditions de livraison :"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType ShipmentMethod_DescriptionCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 3126303398" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Subtotal</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Sous-total"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType SubtotalCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 2476940767" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salesperson</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Vendeur"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType Text000</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total %1</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Total %1"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType Text001</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 3752334001" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total %1 Incl. VAT</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Total %1 TTC"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType Text002</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 95063322" size-unit="char" translate="yes" xml:space="preserve">
+          <source>COPY</source>
+          <note from="Developer" annotates="general" priority="2">FRA="COPIE"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType Text003</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 732759939" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales - Invoice %1</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Ventes : Facture %1"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType Text004</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 1370456556" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page %1</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Page %1"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType Text005</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 2008153173" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total %1 Excl. VAT</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Total %1 HT"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType Text006</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 2645849790" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Amount Specification in </source>
+          <note from="Developer" annotates="general" priority="2">FRA="Détail TVA dans "</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType Text007</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 3283546407" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Local Currency</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Devise société"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType Text008</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 3921243024" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Exchange rate: %1/%2</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Taux de change : %1/%2"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType Text009</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 1664139952" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales - Prepayment Invoice %1</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Ventes - Facture acompte %1"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType Text010</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 2247286032" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ShipmentNo</source>
+          <note from="Developer" annotates="general" priority="2">FRA="NoExpédition"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType Text10800</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 1342776954" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fund Call No.</source>
+          <note from="Developer" annotates="general" priority="2">FRA="N° appel de fonds"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType TextFundCall</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 4227125224" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice No.</source>
+          <note from="Developer" annotates="general" priority="2">FRA="N° facture"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType TextInvoice</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 1701361922" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This service is subject to reverse-charge in the country of the recipient</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Ce service est soumis à autoliquidation dans le pays du destinataire"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType TextMention001</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 4083239367" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No discount for anticipated payment. In accordance with article n°L441-6 of the Code of commerce (Trade Rules), in case of delay of the payment at the due date, a penalty will be applied basis on a 10% rate</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Pas d'escompte en cas de règlement anticipé. Conformément à l'article L441-6 du Code du commerce, il sera appliqué, en cas de retard de paiement à l'échéance, une pénalité calculée sur la base d'un taux égal à 10%"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType TextMention002</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 425968688" size-unit="char" translate="yes" xml:space="preserve">
+          <source> and a lump sum, for debt recovery, of 40 euros. These penalties will be payable as soon the debit note will be issue.</source>
+          <note from="Developer" annotates="general" priority="2">FRA=" ainsi qu'une indemnité forfaitaire pour frais de recouvrement d'un montant de 40 euros. Ces pénalités sont payables à réception de l'avis vous informant que nous les avons portées à votre débit."</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType TextMention003</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 2372114432" size-unit="char" translate="yes" xml:space="preserve">
+          <source>, </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType TextOn</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 2446068092" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit Price</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Prix unitaire"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType Unit_PriceCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 2100523348" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Amount</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Montant TVA"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType VALVATAmountLCY_Control170CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 2096959425" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Continued</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Report"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType VALVATBaseLCYCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 3833871083" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Base</source>
+          <note from="Developer" annotates="general" priority="2">FRA="TVA Base"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType VALVATBaseLCY_Control169CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 1337021568" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Continued</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Report"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType VALVATBaseLCY_Control175CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 2225094482" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Total"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType VALVATBaseLCY_Control180CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 248054567" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice Discount Amount</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Montant remise facture"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType VATAmountLine__Invoice_Discount_Amount__Control142CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 1731876576" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inv. Disc. Base Amount</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Montant base remise facture"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType VATAmountLine__Inv__Disc__Base_Amount__Control141CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 3680130846" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line Amount</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Montant ligne"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType VATAmountLine__Line_Amount__Control140CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 3899293694" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Amount</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Montant TVA"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType VATAmountLine__VAT_Amount__Control109CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 1206547837" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Continued</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Report"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType VATAmountLine__VAT_Base_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 1857744542" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Base</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Base TVA"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType VATAmountLine__VAT_Base__Control108CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 3624995555" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Continued</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Report"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType VATAmountLine__VAT_Base__Control112CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 3423575743" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Total"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType VATAmountLine__VAT_Base__Control116CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 4036425911" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Id.</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Id. TVA"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType VATAmountLine__VAT_Identifier_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 4137533657" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Identifier</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Identifiant TVA"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType VATAmountLine__VAT_Identifier__Control165CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 1646491659" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT %</source>
+          <note from="Developer" annotates="general" priority="2">FRA="% TVA"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType VATAmountLine__VAT___CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 1938117350" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT %</source>
+          <note from="Developer" annotates="general" priority="2">FRA="% TVA"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType VATAmountLine__VAT____Control164CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - NamedType 3936256794" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Amount Specification</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Détail TVA"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType VAT_Amount_SpecificationCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - ReportDataItem 1192395785 - Property 1806354803" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Invoice</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Facture vente"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - ReportDataItem Sales Header - Property RequestFilterHeading</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Options"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - Control 2991839654 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Include Shipment No.</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Inclure numéro expédition"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - Control IncludeShptNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - Control 816368762 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Log Interaction</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Journal interaction"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - Control LogInteraction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - Control 2578066365 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Copies</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Nombre de copies"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - Control NoOfCopies - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 256323761 - Control 316520822 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Internal Information</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Afficher info. internes"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - Control ShowInternalInfo - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Report 1686705815 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sales - Confirmation</source>
           <note from="Developer" annotates="general" priority="2"></note>
