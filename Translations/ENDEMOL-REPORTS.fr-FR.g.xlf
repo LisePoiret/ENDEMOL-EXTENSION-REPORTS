@@ -1210,28 +1210,28 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType SALES_HEADER_Order_NoLbl</note>
           <target>N° commande</target>
         </trans-unit>
-        <trans-unit id="Report 256323761 - NamedType 174841471" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 256323761 - NamedType 2557156069" size-unit="char" translate="yes" xml:space="preserve">
           <source>Due Date :</source>
           <note from="Developer" annotates="general" priority="2">FRA="Date d'échéance :"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType Sales_Invoice_Header___Due_Date_CaptionLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType Sales_Header___Due_Date_CaptionLbl</note>
           <target>Date d'échéance :</target>
         </trans-unit>
-        <trans-unit id="Report 256323761 - NamedType 559920715" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 256323761 - NamedType 1035153705" size-unit="char" translate="yes" xml:space="preserve">
           <source>Posting Date</source>
           <note from="Developer" annotates="general" priority="2">FRA="Date comptabilisation"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType Sales_Invoice_Header___Posting_Date_CaptionLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType Sales_Header___Posting_Date_CaptionLbl</note>
           <target>Date comptabilisation</target>
         </trans-unit>
-        <trans-unit id="Report 256323761 - NamedType 196712507" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 256323761 - NamedType 3636390937" size-unit="char" translate="yes" xml:space="preserve">
           <source>Description</source>
           <note from="Developer" annotates="general" priority="2">FRA="Description"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType Sales_Invoice_Line_Description_Control65CaptionLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType Sales_Line_Description_Control65CaptionLbl</note>
           <target>Description</target>
         </trans-unit>
-        <trans-unit id="Report 256323761 - NamedType 3959200292" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 256323761 - NamedType 524747426" size-unit="char" translate="yes" xml:space="preserve">
           <source>Disc. %</source>
           <note from="Developer" annotates="general" priority="2">FRA="% remise"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType Sales_Invoice_Line__Line_Discount___CaptionLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - NamedType Sales_Line__Line_Discount___CaptionLbl</note>
           <target>% remise</target>
         </trans-unit>
         <trans-unit id="Report 256323761 - NamedType 3740093710" size-unit="char" translate="yes" xml:space="preserve">
@@ -1468,10 +1468,10 @@
           <target>Détail TVA</target>
         </trans-unit>
         <trans-unit id="Report 256323761 - ReportDataItem 1192395785 - Property 1806354803" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Posted Sales Invoice</source>
-          <note from="Developer" annotates="general" priority="2">FRA="Facture vente enregistrée"</note>
+          <source>Sales Invoice</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Facture vente"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Sales Invoice Test - ReportDataItem Sales Header - Property RequestFilterHeading</note>
-          <target>Facture vente enregistrée</target>
+          <target>Facture vente</target>
         </trans-unit>
         <trans-unit id="Report 256323761 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Options</source>

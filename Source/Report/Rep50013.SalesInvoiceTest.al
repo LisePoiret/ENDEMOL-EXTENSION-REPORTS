@@ -13,8 +13,8 @@ report 50013 "Sales Invoice Test"
         {
             DataItemTableView = SORTING("No.");
             RequestFilterFields = "No.", "Sell-to Customer No.", "No. Printed";
-            RequestFilterHeading = 'Posted Sales Invoice', Comment = 'FRA="Facture vente enregistrée"';
-            column(Sales_Invoice_Header_No_; "No.")
+            RequestFilterHeading = 'Sales Invoice', Comment = 'FRA="Facture vente"';
+            column(Sales_Header_No_; "No.")
             {
             }
             dataitem(CopyLoop; "Integer")
@@ -32,9 +32,6 @@ report 50013 "Sales Invoice Test"
                     column(CompanyInfo_Picture; CompanyInfo.Picture)
                     {
                     }
-                    // column(STRSUBSTNO_DocumentCaption_CopyText_; STRSUBSTNO(DocumentCaption, CopyText))
-                    // {
-                    // }
                     column(CustAddr_1_; CustAddr[1])
                     {
                     }
@@ -83,19 +80,19 @@ report 50013 "Sales Invoice Test"
                     column(CompanyInfo__Bank_Account_No__; CompanyInfo."Bank Account No.")
                     {
                     }
-                    column(Sales_Invoice_Header___Bill_to_Customer_No__; "Sales Header"."Bill-to Customer No.")
+                    column(Sales_Header___Bill_to_Customer_No__; "Sales Header"."Bill-to Customer No.")
                     {
                     }
-                    column(Sales_Invoice_Header___Posting_Date_; FORMAT("Sales Header"."Posting Date"))
+                    column(Sales_Header___Posting_Date_; FORMAT("Sales Header"."Posting Date"))
                     {
                     }
                     column(VATNoText; VATNoText)
                     {
                     }
-                    column(Sales_Invoice_Header___VAT_Registration_No__; "Sales Header"."VAT Registration No.")
+                    column(Sales_Header___VAT_Registration_No__; "Sales Header"."VAT Registration No.")
                     {
                     }
-                    column(Sales_Invoice_Header___Due_Date_; FORMAT("Sales Header"."Due Date"))
+                    column(Sales_Header___Due_Date_; FORMAT("Sales Header"."Due Date"))
                     {
                     }
                     column(SalesPersonText; SalesPersonText)
@@ -104,21 +101,18 @@ report 50013 "Sales Invoice Test"
                     column(SalesPurchPerson_Name; SalesPurchPerson.Name)
                     {
                     }
-                    column(Sales_Invoice_Header___No__; "Sales Header"."No.")
+                    column(Sales_Header___No__; "Sales Header"."No.")
                     {
                     }
                     column(ReferenceText; ReferenceText)
                     {
                     }
-                    column(Sales_Invoice_Header___Your_Reference_; "Sales Header"."Your Reference")
+                    column(Sales_Header___Your_Reference_; "Sales Header"."Your Reference")
                     {
                     }
                     column(OrderNoText; OrderNoText)
                     {
                     }
-                    // column(Sales_Invoice_Header___Order_No__; "Sales Header"."Order No.")
-                    // {
-                    // }
                     column(CustAddr_7_; CustAddr[7])
                     {
                     }
@@ -135,11 +129,11 @@ report 50013 "Sales Invoice Test"
                     column(BCS_CompanyInfoCity; CompanyInfo.City) { }
                     column(BCS_CompanyInfoCounty; CompanyInfo."Country/Region Code") { }
 
-                    column(FORMAT__Sales_Invoice_Header___Document_Date__0_4_;
+                    column(FORMAT__Sales_Header___Document_Date__0_4_;
                     CityOn + DELCHR(FORMAT("Sales Header"."Document Date", 0, 4), '=', '.'))
                     {
                     }
-                    column(Sales_Invoice_Header___Prices_Including_VAT_; "Sales Header"."Prices Including VAT")
+                    column(Sales_Header___Prices_Including_VAT_; "Sales Header"."Prices Including VAT")
                     {
                     }
                     column(OutputNo; OutputNo)
@@ -172,9 +166,6 @@ report 50013 "Sales Invoice Test"
                     column(SALES_HEADER_JOB_CODE_VALUE; "Sales Header"."Shortcut Dimension 1 Code")
                     {
                     }
-                    // column(Sales_Invoice_Header_PrePmtOrderNo; "Sales Header"."Prepayment Order No.")
-                    // {
-                    // }
                     column(BankAccRIBKey; BankAccRIB."RIB Key")
                     {
                     }
@@ -226,19 +217,19 @@ report 50013 "Sales Invoice Test"
                     column(CompanyInfo__Bank_Account_No__Caption; CompanyInfo__Bank_Account_No__CaptionLbl)
                     {
                     }
-                    column(Sales_Invoice_Header___Bill_to_Customer_No__Caption; "Sales Header".FIELDCAPTION("Bill-to Customer No."))
+                    column(Sales_Header___Bill_to_Customer_No__Caption; "Sales Header".FIELDCAPTION("Bill-to Customer No."))
                     {
                     }
-                    column(Sales_Invoice_Header___Due_Date_Caption; Sales_Invoice_Header___Due_Date_CaptionLbl)
+                    column(Sales_Header___Due_Date_Caption; Sales_Header___Due_Date_CaptionLbl)
                     {
                     }
                     column(Invoice_No_Caption_OLD; Invoice_No_Caption_OLDLbl)
                     {
                     }
-                    column(Sales_Invoice_Header___Posting_Date_Caption; Sales_Invoice_Header___Posting_Date_CaptionLbl)
+                    column(Sales_Header___Posting_Date_Caption; Sales_Header___Posting_Date_CaptionLbl)
                     {
                     }
-                    column(Sales_Invoice_Header___Prices_Including_VAT_Caption; "Sales Header".FIELDCAPTION("Prices Including VAT"))
+                    column(Sales_Header___Prices_Including_VAT_Caption; "Sales Header".FIELDCAPTION("Prices Including VAT"))
                     {
                     }
                     column(Cust__VAT_Registration_No__Caption; Cust__VAT_Registration_No__CaptionLbl)
@@ -300,40 +291,37 @@ report 50013 "Sales Invoice Test"
                         DataItemLink = "Document No." = FIELD("No.");
                         DataItemLinkReference = "Sales Header";
                         DataItemTableView = SORTING("Document No.", "Line No.");
-                        column(Sales_Invoice_Line__Line_Amount_; "Line Amount")
+                        column(Sales_Line__Line_Amount_; "Line Amount")
                         {
-                            // AutoFormatExpression = "Sales Invoice Line".GetCurrencyCode;
                             AutoFormatType = 1;
                         }
-                        column(Sales_Invoice_Line_Description; "BC6 ENDEMOL comment")
+                        column(Sales_Line_Description; "BC6 ENDEMOL comment")
                         {
                         }
-                        column(Sales_Invoice_Line__No__; "No.")
+                        column(Sales_Line__No__; "No.")
                         {
                         }
-                        column(Sales_Invoice_Line_Description_Control65; "BC6 ENDEMOL comment")
+                        column(Sales_Line_Description_Control65; "BC6 ENDEMOL comment")
                         {
                         }
-                        column(Sales_Invoice_Line_Quantity; Quantity)
+                        column(Sales_Line_Quantity; Quantity)
                         {
                         }
-                        column(Sales_Invoice_Line__Unit_of_Measure_; "Unit of Measure")
+                        column(Sales_Line__Unit_of_Measure_; "Unit of Measure")
                         {
                         }
-                        column(Sales_Invoice_Line__Unit_Price_; "Unit Price")
+                        column(Sales_Line__Unit_Price_; "Unit Price")
                         {
-                            //AutoFormatExpression = "Sales Line".GetCurrencyCode;
                             AutoFormatType = 2;
                         }
-                        column(Sales_Invoice_Line__Line_Discount___; "Line Discount %")
+                        column(Sales_Line__Line_Discount___; "Line Discount %")
                         {
                         }
-                        column(Sales_Invoice_Line__Line_Amount__Control70; "Line Amount")
+                        column(Sales_Line__Line_Amount__Control70; "Line Amount")
                         {
-                            //AutoFormatExpression = "Sales Line".GetCurrencyCode;
                             AutoFormatType = 1;
                         }
-                        column(Sales_Invoice_Line__VAT_Identifier_; "VAT Identifier")
+                        column(Sales_Line__VAT_Identifier_; "VAT Identifier")
                         {
                         }
                         column(PostedShipmentDate; FORMAT(PostedShipmentDate))
@@ -342,9 +330,8 @@ report 50013 "Sales Invoice Test"
                         column(SalesLineType; FORMAT("Sales Line".Type))
                         {
                         }
-                        column(Sales_Invoice_Line__Line_Amount__Control86; "Line Amount")
+                        column(Sales_Line__Line_Amount__Control86; "Line Amount")
                         {
-                            //AutoFormatExpression = "Sales Invoice Line".GetCurrencyCode;
                             AutoFormatType = 1;
                         }
                         column(GetTotalInvDiscAmount; GetTotalInvDiscAmount)
@@ -361,10 +348,9 @@ report 50013 "Sales Invoice Test"
                         }
                         column(Inv__Discount_Amount_; -"Inv. Discount Amount")
                         {
-                            // AutoFormatExpression = "Sales Invoice Line".GetCurrencyCode;
                             AutoFormatType = 1;
                         }
-                        column(Sales_Invoice_Line__Line_Amount__Control99; "Line Amount")
+                        column(Sales_Line__Line_Amount__Control99; "Line Amount")
                         {
                             AutoFormatExpression = "Sales Header"."Currency Code";
                             AutoFormatType = 1;
@@ -382,9 +368,8 @@ report 50013 "Sales Invoice Test"
                         column(TotalText; TotalText)
                         {
                         }
-                        column(Sales_Invoice_Line_Amount; Amount)
+                        column(Sales_Line_Amount; Amount)
                         {
-                            // AutoFormatExpression = "Sales Invoice Line".GetCurrencyCode;
                             AutoFormatType = 1;
                         }
                         column(TotalAmount; TotalAmount)
@@ -392,19 +377,16 @@ report 50013 "Sales Invoice Test"
                             AutoFormatExpression = "Sales Header"."Currency Code";
                             AutoFormatType = 1;
                         }
-                        column(Sales_Invoice_Line_Amount_Control90; Amount)
+                        column(Sales_Line_Amount_Control90; Amount)
                         {
-                            // AutoFormatExpression = "Sales Invoice Line".GetCurrencyCode;
                             AutoFormatType = 1;
                         }
                         column(Amount_Including_VAT____Amount; "Amount Including VAT" - Amount)
                         {
-                            // AutoFormatExpression = "Sales Invoice Line".GetCurrencyCode;
                             AutoFormatType = 1;
                         }
-                        column(Sales_Invoice_Line__Amount_Including_VAT_; "Amount Including VAT")
+                        column(Sales_Line__Amount_Including_VAT_; "Amount Including VAT")
                         {
-                            // AutoFormatExpression = "Sales Invoice Line".GetCurrencyCode;
                             AutoFormatType = 1;
                         }
                         column(VATAmountLine_VATAmountText; VATAmountLine.VATAmountText)
@@ -431,7 +413,7 @@ report 50013 "Sales Invoice Test"
                             AutoFormatExpression = "Sales Header"."Currency Code";
                             AutoFormatType = 1;
                         }
-                        column(Sales_Invoice_Header___VAT_Base_Discount___; "Sales Header"."VAT Base Discount %")
+                        column(Sales_Header___VAT_Base_Discount___; "Sales Header"."VAT Base Discount %")
                         {
                             AutoFormatType = 1;
                         }
@@ -447,44 +429,41 @@ report 50013 "Sales Invoice Test"
                         }
                         column(Amount_Including_VAT____Amount_Control62; "Amount Including VAT" - Amount)
                         {
-                            // AutoFormatExpression = "Sales Invoice Line".GetCurrencyCode;
                             AutoFormatType = 1;
                         }
-                        column(Sales_Invoice_Line_Amount_Control63; Amount)
+                        column(Sales_Line_Amount_Control63; Amount)
                         {
-                            // AutoFormatExpression = "Sales Invoice Line".GetCurrencyCode;
                             AutoFormatType = 1;
                         }
-                        column(Sales_Invoice_Line__Amount_Including_VAT__Control71; "Amount Including VAT")
+                        column(Sales_Line__Amount_Including_VAT__Control71; "Amount Including VAT")
                         {
-                            // AutoFormatExpression = "Sales Invoice Line".GetCurrencyCode;
                             AutoFormatType = 1;
                         }
                         column(TotalExclVATText_Control72; TotalExclVATText)
                         {
                         }
-                        column(Sales_Invoice_Line__No__Caption; FIELDCAPTION("No."))
+                        column(Sales_Line__No__Caption; FIELDCAPTION("No."))
                         {
                         }
-                        column(Sales_Invoice_Line_Description_Control65Caption; Sales_Invoice_Line_Description_Control65CaptionLbl)
+                        column(Sales_Line_Description_Control65Caption; Sales_Line_Description_Control65CaptionLbl)
                         {
                         }
-                        column(Sales_Invoice_Line_QuantityCaption; FIELDCAPTION(Quantity))
+                        column(Sales_Line_QuantityCaption; FIELDCAPTION(Quantity))
                         {
                         }
-                        column(Sales_Invoice_Line__Unit_of_Measure_Caption; FIELDCAPTION("Unit of Measure"))
+                        column(Sales_Line__Unit_of_Measure_Caption; FIELDCAPTION("Unit of Measure"))
                         {
                         }
                         column(Unit_PriceCaption; Unit_PriceCaptionLbl)
                         {
                         }
-                        column(Sales_Invoice_Line__Line_Discount___Caption; Sales_Invoice_Line__Line_Discount___CaptionLbl)
+                        column(Sales_Line__Line_Discount___Caption; Sales_Line__Line_Discount___CaptionLbl)
                         {
                         }
                         column(AmountCaption; AmountCaptionLbl)
                         {
                         }
-                        column(Sales_Invoice_Line__VAT_Identifier_Caption; FIELDCAPTION("VAT Identifier"))
+                        column(Sales_Line__VAT_Identifier_Caption; FIELDCAPTION("VAT Identifier"))
                         {
                         }
                         column(PostedShipmentDateCaption; PostedShipmentDateCaptionLbl)
@@ -505,10 +484,10 @@ report 50013 "Sales Invoice Test"
                         column(Line_Amount_____Inv__Discount_Amount_____Amount_Including_VAT__Caption; Line_Amount_____Inv__Discount_Amount_____Amount_Including_VAT__CaptionLbl)
                         {
                         }
-                        column(Sales_Invoice_Line_Document_No_; "Document No.")
+                        column(Sales_Line_Document_No_; "Document No.")
                         {
                         }
-                        column(Sales_Invoice_Line_Line_No_; "Line No.")
+                        column(Sales_Line_Line_No_; "Line No.")
                         {
                         }
 
@@ -580,7 +559,6 @@ report 50013 "Sales Invoice Test"
                         DataItemTableView = SORTING(Number);
                         column(VATAmountLine__VAT_Base_; VATAmountLine."VAT Base")
                         {
-                            // AutoFormatExpression = "Sales Invoice Line".GetCurrencyCode;
                             AutoFormatType = 1;
                         }
                         column(VATAmountLine__VAT_Amount_; VATAmountLine."VAT Amount")
@@ -879,12 +857,6 @@ report 50013 "Sales Invoice Test"
 
                 end;
 
-                trigger OnPostDataItem()
-                begin
-                    // IF NOT CurrReport.PREVIEW THEN
-                    //     SalesInvCountPrinted.RUN("Sales Header");
-                end;
-
                 trigger OnPreDataItem()
                 begin
                     NoOfLoops := ABS(NoOfCopies) + Cust."Invoice Copies" + 1;
@@ -919,10 +891,6 @@ report 50013 "Sales Invoice Test"
 
                 DimSetEntry1.SetRange("Dimension Set ID", "Dimension Set ID");
 
-                // IF "Order No." = '' THEN
-                //     OrderNoText := ''
-                // ELSE
-                //     OrderNoText := FIELDCAPTION("Order No.");
                 IF "Salesperson Code" = '' THEN BEGIN
                     SalesPurchPerson.INIT;
                     SalesPersonText := '';
@@ -1175,9 +1143,9 @@ report 50013 "Sales Invoice Test"
         CompanyInfo__Giro_No__CaptionLbl: Label 'Giro No.', Comment = 'FRA="N° CCP"';
         CompanyInfo__Bank_Name_CaptionLbl: Label 'Bank', Comment = 'FRA="Banque"';
         CompanyInfo__Bank_Account_No__CaptionLbl: Label 'Account No.', Comment = 'FRA="N° compte"';
-        Sales_Invoice_Header___Due_Date_CaptionLbl: Label 'Due Date :', Comment = 'FRA="Date d''échéance :"';
+        Sales_Header___Due_Date_CaptionLbl: Label 'Due Date :', Comment = 'FRA="Date d''échéance :"';
         Invoice_No_Caption_OLDLbl: Label 'Invoice No.', Comment = 'FRA="N° facture"';
-        Sales_Invoice_Header___Posting_Date_CaptionLbl: Label 'Posting Date', Comment = 'FRA="Date comptabilisation"';
+        Sales_Header___Posting_Date_CaptionLbl: Label 'Posting Date', Comment = 'FRA="Date comptabilisation"';
         Cust__VAT_Registration_No__CaptionLbl: Label 'VAT Reg. No.', Comment = 'FRA="N° id. intracomm."';
         CompanyInfo__Registration_No__CaptionLbl: Label 'SIRET N° ', Comment = 'FRA="N° SIRET "';
         CompanyInfo__Trade_Register_CaptionLbl: Label 'Commercial Register ', Comment = 'FRA="Registre commerciale "';
@@ -1195,9 +1163,9 @@ report 50013 "Sales Invoice Test"
         BankAccRIBBranchNoCaptionLbl: Label 'Branch Code', Comment = 'FRA="Code banque"';
         BankAccRIBNameCaptionLbl: Label 'Name', Comment = 'FRA="Nom"';
         SALES_HEADER_Currency_LABELLbl: Label 'Currency code', Comment = 'FRA="Code devise"';
-        Sales_Invoice_Line_Description_Control65CaptionLbl: Label 'Description', Comment = 'FRA="Description"';
+        Sales_Line_Description_Control65CaptionLbl: Label 'Description', Comment = 'FRA="Description"';
         Unit_PriceCaptionLbl: Label 'Unit Price', Comment = 'FRA="Prix unitaire"';
-        Sales_Invoice_Line__Line_Discount___CaptionLbl: Label 'Disc. %', Comment = 'FRA="% remise"';
+        Sales_Line__Line_Discount___CaptionLbl: Label 'Disc. %', Comment = 'FRA="% remise"';
         AmountCaptionLbl: Label 'Amount', Comment = 'FRA="Prix HT"';
         PostedShipmentDateCaptionLbl: Label 'Posted Shipment Date', Comment = 'FRA="Date expédition validée"';
         ContinuedCaptionLbl: Label 'Continued', Comment = 'FRA="Report"';
@@ -1244,19 +1212,6 @@ report 50013 "Sales Invoice Test"
             IF SalesShipmentHeader.GET("Sales Line"."Shipment No.") THEN
                 EXIT(SalesShipmentHeader."Posting Date");
 
-        // IF "Sales Header"."Order No." = '' THEN
-        //     EXIT("Sales Header"."Posting Date");
-
-        // CASE "Sales Line".Type OF
-        //     "Sales Line".Type::Item:
-        //         GenerateBufferFromValueEntry("Sales Line");
-        //     "Sales Line".Type::"G/L Account", "Sales Line".Type::Resource,
-        //   "Sales Line".Type::"Charge (Item)", "Sales Line".Type::"Fixed Asset":
-        //         GenerateBufferFromShipment("Sales Line");
-        //     "Sales Line".Type::" ":
-        //         EXIT(0D);
-        // END;
-
         SalesShipmentBuffer.RESET;
         SalesShipmentBuffer.SETRANGE("Document No.", "Sales Line"."Document No.");
         SalesShipmentBuffer.SETRANGE("Line No.", "Sales Line"."Line No.");
@@ -1276,141 +1231,5 @@ report 50013 "Sales Invoice Test"
         END ELSE
             EXIT("Sales Header"."Posting Date");
     end;
-
-    // [Scope('OnPrem')]
-    // procedure GenerateBufferFromValueEntry(SalesInvoiceLine2: Record "Sales Line")
-    // var
-    //     ValueEntry: Record "Value Entry";
-    //     ItemLedgerEntry: Record "Item Ledger Entry";
-    //     TotalQuantity: Decimal;
-    //     Quantity: Decimal;
-    // begin
-    //     TotalQuantity := SalesInvoiceLine2."Quantity (Base)";
-    //     ValueEntry.SETCURRENTKEY("Document No.");
-    //     ValueEntry.SETRANGE("Document No.", SalesInvoiceLine2."Document No.");
-    //     ValueEntry.SETRANGE("Posting Date", "Sales Header"."Posting Date");
-    //     ValueEntry.SETRANGE("Item Charge No.", '');
-    //     ValueEntry.SETFILTER("Entry No.", '%1..', FirstValueEntryNo);
-    //     IF ValueEntry.FIND('-') THEN
-    //         REPEAT
-    //             IF ItemLedgerEntry.GET(ValueEntry."Item Ledger Entry No.") THEN BEGIN
-    //                 IF SalesInvoiceLine2."Qty. per Unit of Measure" <> 0 THEN
-    //                     Quantity := ValueEntry."Invoiced Quantity" / SalesInvoiceLine2."Qty. per Unit of Measure"
-    //                 ELSE
-    //                     Quantity := ValueEntry."Invoiced Quantity";
-    //                 AddBufferEntry(
-    //                   SalesInvoiceLine2,
-    //                   -Quantity,
-    //                   ItemLedgerEntry."Posting Date");
-    //                 TotalQuantity := TotalQuantity + ValueEntry."Invoiced Quantity";
-    //             END;
-    //             FirstValueEntryNo := ValueEntry."Entry No." + 1;
-    //         UNTIL (ValueEntry.NEXT = 0) OR (TotalQuantity = 0);
-    // end;
-
-    // [Scope('OnPrem')]
-    // procedure GenerateBufferFromShipment(SalesInvoiceLine: Record "Sales Invoice Line")
-    // var
-    //     SalesInvoiceHeader: Record "Sales Header";
-    //     SalesInvoiceLine2: Record "Sales Invoice Line";
-    //     SalesShipmentHeader: Record "Sales Shipment Header";
-    //     SalesShipmentLine: Record "Sales Shipment Line";
-    //     TotalQuantity: Decimal;
-    //     Quantity: Decimal;
-    // begin
-    //     TotalQuantity := 0;
-    //     SalesInvoiceHeader.SETCURRENTKEY("Order No.");
-    //     SalesInvoiceHeader.SETFILTER("No.", '..%1', "Sales Header"."No.");
-    //     SalesInvoiceHeader.SETRANGE("Order No.", "Sales Header"."Order No.");
-    //     IF SalesInvoiceHeader.FIND('-') THEN
-    //         REPEAT
-    //             SalesInvoiceLine2.SETRANGE("Document No.", SalesInvoiceHeader."No.");
-    //             SalesInvoiceLine2.SETRANGE("Line No.", SalesInvoiceLine."Line No.");
-    //             SalesInvoiceLine2.SETRANGE(Type, SalesInvoiceLine.Type);
-    //             SalesInvoiceLine2.SETRANGE("No.", SalesInvoiceLine."No.");
-    //             SalesInvoiceLine2.SETRANGE("Unit of Measure Code", SalesInvoiceLine."Unit of Measure Code");
-    //             IF SalesInvoiceLine2.FIND('-') THEN
-    //                 REPEAT
-    //                     TotalQuantity := TotalQuantity + SalesInvoiceLine2.Quantity;
-    //                 UNTIL SalesInvoiceLine2.NEXT = 0;
-    //         UNTIL SalesInvoiceHeader.NEXT = 0;
-
-    //     SalesShipmentLine.SETCURRENTKEY("Order No.", "Order Line No.");
-    //     SalesShipmentLine.SETRANGE("Order No.", "Sales Header"."Order No.");
-    //     SalesShipmentLine.SETRANGE("Order Line No.", SalesInvoiceLine."Line No.");
-    //     SalesShipmentLine.SETRANGE("Line No.", SalesInvoiceLine."Line No.");
-    //     SalesShipmentLine.SETRANGE(Type, SalesInvoiceLine.Type);
-    //     SalesShipmentLine.SETRANGE("No.", SalesInvoiceLine."No.");
-    //     SalesShipmentLine.SETRANGE("Unit of Measure Code", SalesInvoiceLine."Unit of Measure Code");
-    //     SalesShipmentLine.SETFILTER(Quantity, '<>%1', 0);
-
-    //     IF SalesShipmentLine.FIND('-') THEN
-    //         REPEAT
-    //             IF "Sales Header"."Get Shipment Used" THEN
-    //                 CorrectShipment(SalesShipmentLine);
-    //             IF ABS(SalesShipmentLine.Quantity) <= ABS(TotalQuantity - SalesInvoiceLine.Quantity) THEN
-    //                 TotalQuantity := TotalQuantity - SalesShipmentLine.Quantity
-    //             ELSE BEGIN
-    //                 IF ABS(SalesShipmentLine.Quantity) > ABS(TotalQuantity) THEN
-    //                     SalesShipmentLine.Quantity := TotalQuantity;
-    //                 Quantity :=
-    //                   SalesShipmentLine.Quantity - (TotalQuantity - SalesInvoiceLine.Quantity);
-
-    //                 TotalQuantity := TotalQuantity - SalesShipmentLine.Quantity;
-    //                 SalesInvoiceLine.Quantity := SalesInvoiceLine.Quantity - Quantity;
-
-    //                 IF SalesShipmentHeader.GET(SalesShipmentLine."Document No.") THEN BEGIN
-    //                     AddBufferEntry(
-    //                       SalesInvoiceLine,
-    //                       Quantity,
-    //                       SalesShipmentHeader."Posting Date");
-    //                 END;
-    //             END;
-    //         UNTIL (SalesShipmentLine.NEXT = 0) OR (TotalQuantity = 0);
-    // end;
-
-    [Scope('OnPrem')]
-    procedure CorrectShipment(var SalesShipmentLine: Record "Sales Shipment Line")
-    var
-        SalesInvoiceLine: Record "Sales Invoice Line";
-    begin
-        SalesInvoiceLine.SETCURRENTKEY("Shipment No.", "Shipment Line No.");
-        SalesInvoiceLine.SETRANGE("Shipment No.", SalesShipmentLine."Document No.");
-        SalesInvoiceLine.SETRANGE("Shipment Line No.", SalesShipmentLine."Line No.");
-        IF SalesInvoiceLine.FIND('-') THEN
-            REPEAT
-                SalesShipmentLine.Quantity := SalesShipmentLine.Quantity - SalesInvoiceLine.Quantity;
-            UNTIL SalesInvoiceLine.NEXT = 0;
-    end;
-
-    [Scope('OnPrem')]
-    procedure AddBufferEntry(SalesInvoiceLine: Record "Sales Invoice Line"; QtyOnShipment: Decimal; PostingDate: Date)
-    begin
-        SalesShipmentBuffer.SETRANGE("Document No.", SalesInvoiceLine."Document No.");
-        SalesShipmentBuffer.SETRANGE("Line No.", SalesInvoiceLine."Line No.");
-        SalesShipmentBuffer.SETRANGE("Posting Date", PostingDate);
-        IF SalesShipmentBuffer.FIND('-') THEN BEGIN
-            SalesShipmentBuffer.Quantity := SalesShipmentBuffer.Quantity + QtyOnShipment;
-            SalesShipmentBuffer.MODIFY;
-            EXIT;
-        END;
-
-        SalesShipmentBuffer."Document No." := SalesInvoiceLine."Document No.";
-        SalesShipmentBuffer."Line No." := SalesInvoiceLine."Line No.";
-        SalesShipmentBuffer."Entry No." := NextEntryNo;
-        SalesShipmentBuffer.Type := SalesInvoiceLine.Type;
-        SalesShipmentBuffer."No." := SalesInvoiceLine."No.";
-        SalesShipmentBuffer.Quantity := QtyOnShipment;
-        SalesShipmentBuffer."Posting Date" := PostingDate;
-        SalesShipmentBuffer.INSERT;
-        NextEntryNo := NextEntryNo + 1
-    end;
-
-    // local procedure DocumentCaption(): Text[250]
-    // begin
-    //     IF "Sales Header"."Prepayment Invoice" THEN
-    //         EXIT(Text010);
-    //     EXIT(Text004);
-    // end;
 }
 
