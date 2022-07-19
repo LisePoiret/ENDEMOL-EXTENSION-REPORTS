@@ -1,5 +1,6 @@
 reportextension 50001 "Purchase - Invoice Ext" extends "Purchase - Invoice"
 {
+
     RDLCLayout = './Source/Report/rdl/PurchaseInvoiceExt.rdl';
     dataset
     {
@@ -13,5 +14,18 @@ reportextension 50001 "Purchase - Invoice Ext" extends "Purchase - Invoice"
 
             }
         }
+        add("Purch. Inv. Header")
+        {
+            column(Purch_order_No; "Purch. Inv. Header"."Order No.")
+            {
+
+            }
+            column(LabelOrder; Purchase_HEADER_Order_NoLbl)
+            {
+
+            }
+        }
     }
+    var
+        Purchase_HEADER_Order_NoLbl: Label 'Order No.', Comment = 'FRA="N° commande"';
 }

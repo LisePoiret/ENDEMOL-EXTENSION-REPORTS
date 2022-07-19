@@ -262,9 +262,6 @@ report 50008 "Sales - Invoice ENDEMOL STD"
                     column(SALES_HEADER_JOB_CODE_LABEL; SALES_HEADER_JOB_CODE_LABELLbl)
                     {
                     }
-                    column(SALES_HEADER_Order_No; SALES_HEADER_Order_NoLbl)
-                    {
-                    }
                     column(MENTION_TVA_SUR_ENCAISSEMENT; MENTION_TVA_SUR_ENCAISSEMENTLbl)
                     {
                     }
