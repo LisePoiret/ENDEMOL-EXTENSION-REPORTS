@@ -4584,7 +4584,7 @@ Fields!SALES_HEADER_JOB_CODE_VALUE.Value
                 </Textbox>
               </ReportItems>
               <DataElementOutput>ContentsOnly</DataElementOutput>
-              <Top>10.52381cm</Top>
+              <Top>9.6856cm</Top>
               <Height>0.423cm</Height>
               <Width>7.93651cm</Width>
               <Style>
