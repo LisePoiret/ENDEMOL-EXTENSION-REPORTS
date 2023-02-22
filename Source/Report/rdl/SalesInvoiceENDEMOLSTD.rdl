@@ -5321,7 +5321,6 @@ Fields!SALES_HEADER_JOB_CODE_VALUE.Value
             <PageBreak>
               <BreakLocation>End</BreakLocation>
             </PageBreak>
-            <Top>0cm</Top>
             <Height>13.58099cm</Height>
             <Width>19.68254cm</Width>
             <Style>
@@ -5395,7 +5394,8 @@ Fields!SALES_HEADER_JOB_CODE_VALUE.Value
                 </Textbox>
               </ReportItems>
               <DataElementOutput>ContentsOnly</DataElementOutput>
-              <Top>9.6856cm</Top>
+              <Top>9.61505cm</Top>
+              <Left>0.00001cm</Left>
               <Height>0.423cm</Height>
               <Width>7.93651cm</Width>
               <Style>
@@ -6144,7 +6144,6 @@ Fields!SALES_HEADER_JOB_CODE_VALUE.Value
                   <Style />
                 </Paragraph>
               </Paragraphs>
-              <Top>0cm</Top>
               <Height>0.42299cm</Height>
               <Width>19.04762cm</Width>
               <ZIndex>3</ZIndex>
