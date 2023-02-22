@@ -4545,8 +4545,9 @@ Fields!SALES_HEADER_JOB_CODE_VALUE.Value
                       <Style />
                     </Paragraph>
                   </Paragraphs>
-                  <Left>4.44444cm</Left>
-                  <Height>0.423cm</Height>
+                  <Top>0.03528cm</Top>
+                  <Left>4.44446cm</Left>
+                  <Height>0.51767cm</Height>
                   <Width>3.49207cm</Width>
                   <Style>
                     <PaddingLeft>2pt</PaddingLeft>
@@ -4571,7 +4572,9 @@ Fields!SALES_HEADER_JOB_CODE_VALUE.Value
                       <Style />
                     </Paragraph>
                   </Paragraphs>
-                  <Height>0.423cm</Height>
+                  <Top>0.03528cm</Top>
+                  <Left>0.00002cm</Left>
+                  <Height>0.51767cm</Height>
                   <Width>3.15cm</Width>
                   <ZIndex>1</ZIndex>
                   <Style>
@@ -4583,10 +4586,9 @@ Fields!SALES_HEADER_JOB_CODE_VALUE.Value
                 </Textbox>
               </ReportItems>
               <DataElementOutput>ContentsOnly</DataElementOutput>
-              <Top>9.61505cm</Top>
-              <Left>0.00001cm</Left>
-              <Height>0.423cm</Height>
-              <Width>7.93651cm</Width>
+              <Top>9.35939cm</Top>
+              <Height>0.51767cm</Height>
+              <Width>7.93652cm</Width>
               <Style>
                 <Border>
                   <Style>Solid</Style>
@@ -4762,7 +4764,7 @@ Fields!SALES_HEADER_JOB_CODE_VALUE.Value
               </ReportItems>
               <DataElementOutput>ContentsOnly</DataElementOutput>
               <Top>7.93639cm</Top>
-              <Height>1.64338cm</Height>
+              <Height>1.423cm</Height>
               <Width>7.93651cm</Width>
               <ZIndex>1</ZIndex>
               <Style>
