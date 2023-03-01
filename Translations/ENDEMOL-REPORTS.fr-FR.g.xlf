@@ -262,6 +262,7 @@
         </trans-unit>
         <trans-unit id="Report 108030916 - NamedType 801522178" size-unit="char" translate="yes" xml:space="preserve">
           <source>National Issuer No.</source>
+          <target state="translated">N° émetteur national</target>
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Report Draft recapitulation ENDE STD - NamedType PaymtHeader__National_Issuer_No__CaptionLbl</note>
         </trans-unit>
