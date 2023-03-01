@@ -43,6 +43,281 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report BC6 - Reminder - ReportLabel VATPercentCaption</note>
         </trans-unit>
+        <trans-unit id="Report 3326587356 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Draft</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Draft notice ENDEMOL STD - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3326587356 - NamedType 4249603319" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Draft notice ENDEMOL STD - NamedType ABS__Remaining_Amount___Control1120059CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3326587356 - NamedType 2997792666" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FAX No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Draft notice ENDEMOL STD - NamedType CompanyInformation__Fax_No__CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3326587356 - NamedType 3851306719" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Phone No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Draft notice ENDEMOL STD - NamedType CompanyInformation__Phone_No__CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3326587356 - NamedType 247272984" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Registration No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Draft notice ENDEMOL STD - NamedType CompanyInformation__VAT_Registration_No__CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3326587356 - NamedType 2034041705" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Draft Notice Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Draft notice ENDEMOL STD - NamedType Draft_Notice_AmountCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3326587356 - NamedType 846674812" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This transfer is related to these invoices :</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Draft notice ENDEMOL STD - NamedType HeaderText2</note>
+        </trans-unit>
+        <trans-unit id="Report 3326587356 - NamedType 2273660765" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Draft No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Draft notice ENDEMOL STD - NamedType Payment_Lines1___No__CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3326587356 - NamedType 2441517425" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SWIFT Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Draft notice ENDEMOL STD - NamedType PaymtHeader__SWIFT_Code__CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3326587356 - NamedType 260883521" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Currency Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Draft notice ENDEMOL STD - NamedType PrintCurrencyCodeCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3326587356 - NamedType 3337055126" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Report</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Draft notice ENDEMOL STD - NamedType ReportCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3326587356 - NamedType 1636287816" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Report</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Draft notice ENDEMOL STD - NamedType ReportCaption_Control1120015Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3326587356 - NamedType 2476940767" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You must specify a transfer number.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Draft notice ENDEMOL STD - NamedType Text000</note>
+        </trans-unit>
+        <trans-unit id="Report 3326587356 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
+          <source>COPY</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Draft notice ENDEMOL STD - NamedType Text001</note>
+        </trans-unit>
+        <trans-unit id="Report 3326587356 - NamedType 3752334001" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Notice %1</source>
+          <note from="Developer" annotates="general" priority="2">FRA="Avis de virement"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Draft notice ENDEMOL STD - NamedType Text002</note>
+        </trans-unit>
+        <trans-unit id="Report 3326587356 - NamedType 732759939" size-unit="char" translate="yes" xml:space="preserve">
+          <source>A transfer to your bank account %1 (RIB : %2 %3 %4) has been done on %5.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Draft notice ENDEMOL STD - NamedType Text004</note>
+        </trans-unit>
+        <trans-unit id="Report 3326587356 - NamedType 1370456556" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Draft notice ENDEMOL STD - NamedType Text005</note>
+        </trans-unit>
+        <trans-unit id="Report 3326587356 - NamedType 835154067" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Due Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Draft notice ENDEMOL STD - NamedType Vendor_Ledger_Entry__Due_Date_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3326587356 - NamedType 2593154839" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Draft notice ENDEMOL STD - NamedType Vendor_Ledger_Entry__Posting_Date_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3326587356 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Draft notice ENDEMOL STD - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3326587356 - Control 4198158427 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of copies to print.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Draft notice ENDEMOL STD - Control NumberOfCopies - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3326587356 - Control 4198158427 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Number of copies</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Draft notice ENDEMOL STD - Control NumberOfCopies - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 108030916 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Recapitulation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Draft recapitulation ENDE STD - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 108030916 - NamedType 2292105036" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Draft recapitulation ENDE STD - NamedType ABS_Amount__Control1120031CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 108030916 - NamedType 2031138424" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank Account</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Draft recapitulation ENDE STD - NamedType Bank_AccountCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 108030916 - NamedType 2997792666" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fax No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Draft recapitulation ENDE STD - NamedType CompanyInformation__Fax_No__CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 108030916 - NamedType 3851306719" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Phone No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Draft recapitulation ENDE STD - NamedType CompanyInformation__Phone_No__CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 108030916 - NamedType 247272984" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Registration No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Draft recapitulation ENDE STD - NamedType CompanyInformation__VAT_Registration_No__CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 108030916 - NamedType 3090141626" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Done at :</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Draft recapitulation ENDE STD - NamedType Done_at__CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 108030916 - NamedType 2029752671" size-unit="char" translate="yes" xml:space="preserve">
+          <source>On :</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Draft recapitulation ENDE STD - NamedType On__CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 108030916 - NamedType 3705722429" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank Account Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Draft recapitulation ENDE STD - NamedType Payment_Lines__Bank_Account_Name_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 108030916 - NamedType 2389879154" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Swift Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Draft recapitulation ENDE STD - NamedType Payment_Lines__SWIFT_Code_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 108030916 - NamedType 1458268524" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Agency Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Draft recapitulation ENDE STD - NamedType PaymtHeader__Agency_Code_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 108030916 - NamedType 111487656" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank Account No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Draft recapitulation ENDE STD - NamedType PaymtHeader__Bank_Account_No__CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 108030916 - NamedType 3851029243" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank Branch No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Draft recapitulation ENDE STD - NamedType PaymtHeader__Bank_Branch_No__CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 108030916 - NamedType 801522178" size-unit="char" translate="yes" xml:space="preserve">
+          <source>National Issuer No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Draft recapitulation ENDE STD - NamedType PaymtHeader__National_Issuer_No__CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 108030916 - NamedType 1453081509" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Draft No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Draft recapitulation ENDE STD - NamedType PaymtHeader__No__CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 108030916 - NamedType 1483156408" size-unit="char" translate="yes" xml:space="preserve">
+          <source>RIB Key</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Draft recapitulation ENDE STD - NamedType PaymtHeader__RIB_Key_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 108030916 - NamedType 1688519452" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SWIFT Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Draft recapitulation ENDE STD - NamedType PaymtHeader__SWIFT_Code_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 108030916 - NamedType 260883521" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Currency Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Draft recapitulation ENDE STD - NamedType PrintCurrencyCodeCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 108030916 - NamedType 3337055126" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Report</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Draft recapitulation ENDE STD - NamedType ReportCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 108030916 - NamedType 1636287816" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Report</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Draft recapitulation ENDE STD - NamedType ReportCaption_Control1120015Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 108030916 - NamedType 2545200628" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Signature :</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Draft recapitulation ENDE STD - NamedType Signature__CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 108030916 - NamedType 2476940767" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You must specify a transfer number.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Draft recapitulation ENDE STD - NamedType Text000</note>
+        </trans-unit>
+        <trans-unit id="Report 108030916 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Recapitulation %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Draft recapitulation ENDE STD - NamedType Text001</note>
+        </trans-unit>
+        <trans-unit id="Report 108030916 - NamedType 3752334001" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor %1 does not exist.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Draft recapitulation ENDE STD - NamedType Text002</note>
+        </trans-unit>
+        <trans-unit id="Report 108030916 - NamedType 3140410629" size-unit="char" translate="yes" xml:space="preserve">
+          <source> DRAFT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Draft recapitulation ENDE STD - NamedType Text004Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 108030916 - NamedType 2287756966" size-unit="char" translate="yes" xml:space="preserve">
+          <source> DRAFTS</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Draft recapitulation ENDE STD - NamedType Text005Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 108030916 - NamedType 2008153173" size-unit="char" translate="yes" xml:space="preserve">
+          <source>COPY</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Draft recapitulation ENDE STD - NamedType Text006</note>
+        </trans-unit>
+        <trans-unit id="Report 108030916 - NamedType 2645849790" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Draft recapitulation ENDE STD - NamedType Text007</note>
+        </trans-unit>
+        <trans-unit id="Report 108030916 - NamedType 1583171122" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Draft recapitulation ENDE STD - NamedType TotalCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 108030916 - NamedType 1110963292" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Draft recapitulation ENDE STD - NamedType Vendor_NameCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 108030916 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Draft recapitulation ENDE STD - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 108030916 - Control 648353892 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of copies to print.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Draft recapitulation ENDE STD - Control CopiesNumber - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 108030916 - Control 648353892 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Number of copies</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Draft recapitulation ENDE STD - Control CopiesNumber - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Report 1694851073 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sales - Credit Memo</source>
           <note from="Developer" annotates="general" priority="2">FRA="Ventes : Avoir"</note>
